@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">LembretesRecycler</string>
+
+    <string name="descricao">Icone do lembrete</string>
+    <string name="descricao_btn">Botão pra adiconar lembrete</string>
+
+    <string name="hint_title">Título</string>
+    <string name="hint_text">Texto</string>
+
 </resources>
