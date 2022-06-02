@@ -11,7 +11,10 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
+    //Criando a lista de lembrete mutavel
     private var lembretes = mutableListOf<Lembrete>()
+
+    //Instanciando o LembreteAdapter
     private var adapter = LembreteAdapter(lembretes)
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,13 +28,14 @@ class MainActivity : AppCompatActivity() {
 
         fabAdd.setOnClickListener{
             if (edtTitle.text!!.isBlank()){
-                Toast.makeText(this, "Em branco", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "Título em branco", Toast.LENGTH_LONG).show()
             } else {
                 addLembrete()
             }
         }
     }
 
+    //Inicia um spinner com itens a serem selecionados
     private fun initSpinner(){
         val prioridades = arrayOf("Urgente", "Importante", "Irrelevante","Fixo")
 
@@ -42,6 +46,7 @@ class MainActivity : AppCompatActivity() {
         spnPrioridades.adapter = adapterSpn
     }
 
+    //Inicia o RecycleView como um LinearLayout
     private fun initRecyclerView(){
         rvLembretes.adapter = adapter
 
@@ -52,31 +57,45 @@ class MainActivity : AppCompatActivity() {
         iniSwipeGesture()
     }
 
+    //Função que adiciona o lembrete
     private fun addLembrete(){
+
+        //Instancia um objeto Lembrete passando os itens digitados e selecionados
         val lembrete = Lembrete(
             edtTitle.text.toString(),
             edtText.text.toString(),
             spnPrioridades.selectedItem.toString()
         )
 
+        //Adiciona o lembrete na lista de lembretes
         lembretes.add(lembrete)
+
+        //Notifica o adapter que um novo item foi inserido
         adapter.notifyItemInserted(lembretes.lastIndex)
+
+        //Limpa os InputText e deixa o edtTitle selecionado
         edtTitle.text?.clear()
         edtText.text?.clear()
         edtTitle.requestFocus()
 
+        //Seleciona "Fixo" no spinner
         spnPrioridades.setSelection(3)
     }
 
+    //Função que faz com que o lembrete seja excluido ao ser movido pro lado
     private fun iniSwipeGesture(){
+
+        //Só poderá ser movido pra esquerda e em 0 possições
         val swipe = object: ItemTouchHelper.SimpleCallback(0, ItemTouchHelper.LEFT){
 
             override fun onMove(
                 recyclerView: RecyclerView,
                 viewHolder: RecyclerView.ViewHolder,
                 target: RecyclerView.ViewHolder
-            ): Boolean = false
+            ): Boolean = false //Não poderá ser movido
 
+            //Função de ação quando o lembrete for passado
+            //Removemos o lembrete e notificamos o adapter
             override fun onSwiped(viewHolder: RecyclerView.ViewHolder, direction: Int) {
                 val position = viewHolder.absoluteAdapterPosition
                 lembretes.removeAt(position)
