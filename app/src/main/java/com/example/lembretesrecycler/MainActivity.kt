@@ -3,7 +3,6 @@ package com.example.lembretesrecycler
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
-import android.widget.Toast
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -13,7 +12,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
 
     private var lembretes = mutableListOf<Lembrete>()
-    private var adapter = LembreteAdapter(lembretes, this::onLembreteItemClick)
+    private var adapter = LembreteAdapter(lembretes)
 
     private val binding by lazy{
         ActivityMainBinding.inflate(layoutInflater)
@@ -67,12 +66,6 @@ class MainActivity : AppCompatActivity() {
         edtTitle.requestFocus()
 
         spnPrioridades.setSelection(3)
-    }
-
-    private fun onLembreteItemClick(lembrete: Lembrete){
-        val s = "${lembrete.titulo}\n${lembrete.texto}"
-
-        Toast.makeText(this, s, Toast.LENGTH_LONG).show()
     }
 
     private fun iniSwipeGesture(){

@@ -1,6 +1,5 @@
 package com.example.lembretesrecycler
 
-import android.app.ProgressDialog.show
 import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.View
@@ -12,18 +11,12 @@ import kotlinx.android.synthetic.main.activity_main.view.*
 import kotlinx.android.synthetic.main.item_lembrete.view.*
 
 class LembreteAdapter (
-    private val lembretes: List<Lembrete>,
-    private val callback: (Lembrete) -> Unit) : RecyclerView.Adapter<LembreteAdapter.VH>(){
+    private val lembretes: List<Lembrete>) : RecyclerView.Adapter<LembreteAdapter.VH>(){
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): VH {
         val v = LayoutInflater.from(parent.context).inflate(R.layout.item_lembrete, parent, false)
 
-        val vh = VH(v)
-        vh.itemView.setOnClickListener{
-            val lembrete = lembretes[vh.absoluteAdapterPosition]
-            callback(lembrete)
-        }
-        return vh
+        return VH(v)
     }
 
     override fun onBindViewHolder(holder: VH, pos: Int){
