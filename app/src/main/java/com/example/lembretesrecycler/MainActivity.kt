@@ -3,20 +3,16 @@ package com.example.lembretesrecycler
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
+import android.widget.Toast
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.lembretesrecycler.databinding.ActivityMainBinding
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
     private var lembretes = mutableListOf<Lembrete>()
     private var adapter = LembreteAdapter(lembretes)
-
-    private val binding by lazy{
-        ActivityMainBinding.inflate(layoutInflater)
-    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,7 +24,11 @@ class MainActivity : AppCompatActivity() {
         initRecyclerView()
 
         fabAdd.setOnClickListener{
-            addLembrete()
+            if (edtTitle.text!!.isBlank()){
+                Toast.makeText(this, "Em branco", Toast.LENGTH_LONG).show()
+            } else {
+                addLembrete()
+            }
         }
     }
 
