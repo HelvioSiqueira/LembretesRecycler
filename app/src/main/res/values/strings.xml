@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LembretesRecycler</string>
+    <string name="app_name">Lembretes</string>
 
     <string name="descricao">Icone do lembrete</string>
     <string name="descricao_btn">Botão pra adiconar lembrete</string>

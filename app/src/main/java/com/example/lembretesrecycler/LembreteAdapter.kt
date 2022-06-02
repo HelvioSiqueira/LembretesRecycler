@@ -1,5 +1,6 @@
 package com.example.lembretesrecycler
 
+import android.app.ProgressDialog.show
 import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.View
@@ -43,10 +44,11 @@ class LembreteAdapter (
 
     private fun setCor(prioridade: String): Int {
         return when (prioridade) {
-            "Urgente" -> Color.RED
-            "Importante" -> Color.BLUE
-            "Irrilevante" -> Color.GREEN
+            "Urgente" -> Color.parseColor("#EF5350")
+            "Importante" -> Color.parseColor("#42A5F5")
+            "Irrelevante" -> Color.parseColor("#66BB6A")
             else -> Color.WHITE
+
         }
     }
 }
