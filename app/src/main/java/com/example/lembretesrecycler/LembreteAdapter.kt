@@ -15,8 +15,11 @@ import kotlinx.android.synthetic.main.item_lembrete.view.*
 
 //A classe LembreteAdapter necessita de uma subclasse do tipo RecyclerView.Adapter que deve ser do
 //tipo VH(ViewHolder)
+
+//Uso o ctx para poder ter acesso aos arquivo de layout array
 class LembreteAdapter (private val lembretes: List<Lembrete>, private val ctx:Context) : RecyclerView.Adapter<LembreteAdapter.VH>(){
 
+    //Objeto TypedArray que só será iniciado quando for usado a primeira vez
     private val icones: TypedArray by lazy{
         ctx.resources.obtainTypedArray(R.array.icones)
     }
@@ -37,16 +40,9 @@ class LembreteAdapter (private val lembretes: List<Lembrete>, private val ctx:Co
         holder.txtTitle.text = titulo
         holder.txtText.text = texto
 
-        val ic = when(prioridade){
-            "Urgente" -> 0
-            "Importante" -> 1
-            "Flexivel" -> 2
-            else -> 3
-        }
-
         //Definindo a cor do ViewHolder
         holder.itemView.setBackgroundColor(setCor(prioridade))
-        holder.icone.setImageDrawable(icones.getDrawable(ic))
+        holder.icone.setImageDrawable(icones.getDrawable(numPrioridade(prioridade)))
     }
 
     //Define a quantidade de itens que a lista irá exibir
@@ -70,13 +66,15 @@ class LembreteAdapter (private val lembretes: List<Lembrete>, private val ctx:Co
         }
     }
 
-    private fun setIcon(prioridade: String): Drawable {
-        return when (prioridade) {
-            "Urgente" -> R.drawable.ic_atencao.toDrawable()
-            "Importante" -> R.drawable.ic_update.toDrawable()
-            "Flexivel" -> R.drawable.ic_snooze.toDrawable()
-            else -> R.drawable.ic_pin.toDrawable()
-
+    //Transforma a prioridade em um inteiro para usa-lo no obtainTypedArray
+    private fun numPrioridade(prioridade: String): Int{
+        val ic = when(prioridade){
+            "Urgente" -> 0
+            "Importante" -> 1
+            "Flexivel" -> 2
+            else -> 3
         }
+        return  ic
     }
+
 }

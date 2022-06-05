@@ -8,9 +8,7 @@ import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.item_lembrete.*
 import java.util.*
-import android.graphics.drawable.Drawable as Drawable1
 
 class MainActivity : AppCompatActivity() {
 
@@ -24,6 +22,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //Adiciona os itens salvo quando o aparelho rodou a tela na lista de lembretes
         lastCustomNonConfigurationInstance.let{ savedLembretes ->
             if(savedLembretes is MutableList<*>){
                 lembretes.addAll(savedLembretes.filterIsInstance(Lembrete::class.java))
@@ -44,6 +43,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    //Salva os dados da Lista de Lembretes quando a tela é girada
     @Deprecated("Deprecated in Java")
     override fun onRetainCustomNonConfigurationInstance(): Any {
         return lembretes
@@ -99,7 +99,7 @@ class MainActivity : AppCompatActivity() {
     //Função que faz com que o lembrete seja excluido ao ser movido pro lado
     private fun initSwipeGesture(){
 
-        //Só poderá ser movido pra esquerda e em 0 possições
+        //Só poderá ser movido pra esquerda e em 0 posições
         val swipe = object: ItemTouchHelper.SimpleCallback(
             ItemTouchHelper.UP or ItemTouchHelper.DOWN,
             ItemTouchHelper.LEFT){
@@ -109,14 +109,17 @@ class MainActivity : AppCompatActivity() {
                 viewHolder: RecyclerView.ViewHolder,
                 target: RecyclerView.ViewHolder
             ): Boolean {
+
+                //Pega as posição atual e posição alvo
                 val from: Int = viewHolder.absoluteAdapterPosition
                 val to: Int = target.absoluteAdapterPosition
 
+                //Faz a troca de posições na lista lembretes e notifica o adapter da mudança
                 Collections.swap(lembretes, from, to)
                 adapter.notifyItemMoved(from, to)
 
                 return true
-            } //Não poderá ser movido
+            } //Se fosse false não poderia ser movido
 
             //Função de ação quando o lembrete for passado
             //Removemos o lembrete e notificamos o adapter
