@@ -8,7 +8,9 @@ import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.item_lembrete.*
 import java.util.*
+import android.graphics.drawable.Drawable as Drawable1
 
 class MainActivity : AppCompatActivity() {
 
@@ -16,7 +18,7 @@ class MainActivity : AppCompatActivity() {
     private var lembretes = mutableListOf<Lembrete>()
 
     //Instanciando o LembreteAdapter
-    private var adapter = LembreteAdapter(lembretes)
+    private var adapter = LembreteAdapter(lembretes, this)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,7 +40,7 @@ class MainActivity : AppCompatActivity() {
 
     //Inicia um spinner com itens a serem selecionados
     private fun initSpinner(){
-        val prioridades = arrayOf("Urgente", "Importante", "Irrelevante","Fixo")
+        val prioridades = arrayOf("Urgente", "Importante", "Flexivel","Fixo")
 
         val adapterSpn = ArrayAdapter(this, android.R.layout.simple_spinner_item, prioridades)
 
