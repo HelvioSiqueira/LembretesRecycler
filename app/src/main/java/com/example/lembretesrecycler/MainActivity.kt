@@ -24,6 +24,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        lastCustomNonConfigurationInstance.let{ savedLembretes ->
+            if(savedLembretes is MutableList<*>){
+                lembretes.addAll(savedLembretes.filterIsInstance(Lembrete::class.java))
+            }
+        }
+
         initSpinner()
         spnPrioridades.setSelection(3)
 
@@ -36,6 +42,11 @@ class MainActivity : AppCompatActivity() {
                 addLembrete()
             }
         }
+    }
+
+    @Deprecated("Deprecated in Java")
+    override fun onRetainCustomNonConfigurationInstance(): Any {
+        return lembretes
     }
 
     //Inicia um spinner com itens a serem selecionados
