@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.activity_main.*
+import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -54,7 +55,7 @@ class MainActivity : AppCompatActivity() {
 
         rvLembretes.layoutManager = layoutManager
 
-        iniSwipeGesture()
+        initSwipeGesture()
     }
 
     //Função que adiciona o lembrete
@@ -83,16 +84,26 @@ class MainActivity : AppCompatActivity() {
     }
 
     //Função que faz com que o lembrete seja excluido ao ser movido pro lado
-    private fun iniSwipeGesture(){
+    private fun initSwipeGesture(){
 
         //Só poderá ser movido pra esquerda e em 0 possições
-        val swipe = object: ItemTouchHelper.SimpleCallback(0, ItemTouchHelper.LEFT){
+        val swipe = object: ItemTouchHelper.SimpleCallback(
+            ItemTouchHelper.UP or ItemTouchHelper.DOWN,
+            ItemTouchHelper.LEFT){
 
             override fun onMove(
-                recyclerView: RecyclerView,
+                recyclerView: RecyclerView ,
                 viewHolder: RecyclerView.ViewHolder,
                 target: RecyclerView.ViewHolder
-            ): Boolean = false //Não poderá ser movido
+            ): Boolean {
+                val from: Int = viewHolder.absoluteAdapterPosition
+                val to: Int = target.absoluteAdapterPosition
+
+                Collections.swap(lembretes, from, to)
+                adapter.notifyItemMoved(from, to)
+
+                return true
+            } //Não poderá ser movido
 
             //Função de ação quando o lembrete for passado
             //Removemos o lembrete e notificamos o adapter
