@@ -18,7 +18,7 @@ A classe RecycleView(arquivo LembreteAdapter) obrigatoriamente tem que ter 3 mé
         return VH(v)
     }
 ```
-Esse método será o responsável por criar a instância ViewHolder(Método que inicializa os atributos do lembrete sem precisar ficar chamando o findViewById ou binding de views) a partir do layout que representa cada item da lista.
+Esse método será o responsável por criar a instância do ViewHolder(Método que inicializa os atributos do lembrete sem precisar ficar chamando o findViewById ou usar binding de views) a partir do layout que representa cada item da lista.
 
 ### onBindViewHolder()
 
@@ -81,4 +81,4 @@ pra cima ou pra baixo
         itemTouchHelper.attachToRecyclerView(rvLembretes)
     }
 ```
-O ItemTouchHelper é responsavel por permitir os gestos na RecyclerView. Com ele podemos configurar as direções que poderão ser movidas para cada ação, (se o ```ItemTouchHelper.UP or ItemTouchHelper.DOWN``` fosse 0 então os lembretes não poderiam ser movido) e as ações que terão cada movimento: Reordenar com o ```onMove()``` e excluir com o ```onSwiped()```
+O ItemTouchHelper é responsavel por permitir os gestos na RecyclerView. Com ele podemos configurar as direções que poderão ser movidas para cada ação, (se o ```ItemTouchHelper.UP or ItemTouchHelper.DOWN``` fosse 0 então os lembretes não poderiam ser movidos) e as ações que terão cada movimento: Reordenar com o ```onMove()``` e excluir com o ```onSwiped()```.
