@@ -1,48 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_margin="4dp"
     app:cardCornerRadius="8dp">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="?attr/selectableItemBackground"
-        android:layout_gravity="center"
-        android:padding="8dp">
+        android:background="?attr/selectableItemBackground">
 
-        <ImageView
-            android:id="@+id/icone"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="start"
-            android:src="@drawable/ic_atencao"
-            android:contentDescription="@string/descricao"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
-
-        <TextView
-            android:id="@+id/txtTitulo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:gravity="center"
-            android:layout_marginStart="20dp"
-            android:textSize="20sp"
-            app:layout_constraintStart_toEndOf="@+id/icone"
-            app:layout_constraintTop_toTopOf="@+id/icone"/>
+            android:background="?attr/selectableItemBackground"
+            android:padding="8dp">
 
-        <TextView
-            android:id="@+id/txtTexto"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="16sp"
-            android:layout_marginStart="20dp"
-            app:layout_constraintStart_toEndOf="@+id/icone"
-            app:layout_constraintTop_toBottomOf="@+id/txtTitulo"/>
+            <ImageView
+                android:id="@+id/icone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:contentDescription="@string/descricao"
+                android:src="@drawable/ic_atencao"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView
+                android:id="@+id/txtTitulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/icone"
+                app:layout_constraintTop_toTopOf="@+id/icone" />
+
+            <TextView
+                android:id="@+id/txtTexto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:textSize="16sp"
+                app:layout_constraintStart_toEndOf="@+id/icone"
+                app:layout_constraintTop_toBottomOf="@+id/txtTitulo" />
+
+            <ImageButton
+                android:id="@+id/btnSeta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                android:src="@drawable/ic_baseline_expand_more_24"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:contentDescription="@string/descricao_btn_seta"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
 
 </com.google.android.material.card.MaterialCardView>

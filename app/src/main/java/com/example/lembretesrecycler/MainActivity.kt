@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //Adiciona os itens salvo quando o aparelho rodou a tela na lista de lembretes
+        //Adiciona os itens salvos quando o aparelho rodou a tela na lista de lembretes
         lastCustomNonConfigurationInstance.let{ savedLembretes ->
             if(savedLembretes is MutableList<*>){
                 lembretes.addAll(savedLembretes.filterIsInstance(Lembrete::class.java))

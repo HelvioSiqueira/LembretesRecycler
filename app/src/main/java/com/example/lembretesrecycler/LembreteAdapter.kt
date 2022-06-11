@@ -6,10 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.content.res.TypedArray
-import android.graphics.drawable.Drawable
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.core.graphics.drawable.toDrawable
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.item_lembrete.view.*
 
@@ -41,7 +39,12 @@ class LembreteAdapter (private val lembretes: List<Lembrete>, private val ctx:Co
         holder.txtText.text = texto
 
         //Definindo a cor do ViewHolder
-        holder.itemView.setBackgroundColor(setCor(prioridade))
+        //Selecionando a cor do background dessa forma fazia com que não houvesse
+        //O arredondamento da view, pois cor seria aplicada a toda a view no layout
+        //holder.itemView.setBackgroundColor(setCor(prioridade))
+
+        //Aplicando a cor no proprio card o arredondamento transparece
+        holder.itemView.card.setBackgroundColor(setCor(prioridade))
         holder.icone.setImageDrawable(icones.getDrawable(numPrioridade(prioridade)))
     }
 
