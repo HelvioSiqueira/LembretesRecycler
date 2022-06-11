@@ -1,5 +1,4 @@
 package com.example.lembretesrecycler
-
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
@@ -8,6 +7,8 @@ import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.item_lembrete.*
+import java.text.SimpleDateFormat
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
@@ -78,7 +79,11 @@ class MainActivity : AppCompatActivity() {
         val lembrete = Lembrete(
             edtTitle.text.toString(),
             edtText.text.toString(),
-            spnPrioridades.selectedItem.toString()
+            spnPrioridades.selectedItem.toString(),
+
+            //Passa a data obtida na função
+            obterData()
+
         )
 
         //Adiciona o lembrete na lista de lembretes
@@ -132,5 +137,16 @@ class MainActivity : AppCompatActivity() {
 
         val itemTouchHelper = ItemTouchHelper(swipe)
         itemTouchHelper.attachToRecyclerView(rvLembretes)
+    }
+
+    //Obtem a data atual
+    private fun obterData(): String {
+
+        val date = Calendar.getInstance().time
+
+        //Seleciona o formato da data
+        val dateTimeFormat = SimpleDateFormat("dd/MM/yyyy", Locale.getDefault())
+
+        return dateTimeFormat.format(date).toString()
     }
 }

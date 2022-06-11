@@ -14,6 +14,8 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.item_lembrete.*
 import kotlinx.android.synthetic.main.item_lembrete.view.*
+import java.text.SimpleDateFormat
+import java.util.*
 
 //A classe LembreteAdapter necessita de uma subclasse do tipo RecyclerView.Adapter que deve ser do
 //tipo VH(ViewHolder)
@@ -55,10 +57,11 @@ class LembreteAdapter (private val lembretes: List<Lembrete>, private val ctx:Co
 
     //Preenche-se o ViewHolder com as informações do objeto
     override fun onBindViewHolder(holder: VH, pos: Int){
-        val (titulo, texto, prioridade) = lembretes[pos]
+        val (titulo, texto, prioridade, data) = lembretes[pos]
 
         holder.txtTitle.text = titulo
         holder.txtText.text = texto
+        holder.data.text = data
 
         //Definindo a cor do ViewHolder
         //Selecionando a cor do background dessa forma fazia com que não houvesse
@@ -78,6 +81,7 @@ class LembreteAdapter (private val lembretes: List<Lembrete>, private val ctx:Co
         val txtTitle: TextView = itemView.txtTitulo
         val txtText: TextView = itemView.txtTexto
         val icone: ImageView = itemView.icone
+        val data: TextView = itemView.dataAdd
     }
 
     //Função que retorna a cor que terá o itemView dependendo da "prioridade"
@@ -101,5 +105,7 @@ class LembreteAdapter (private val lembretes: List<Lembrete>, private val ctx:Co
         }
         return  ic
     }
+
+
 
 }
