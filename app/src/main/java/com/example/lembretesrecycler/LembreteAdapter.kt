@@ -6,9 +6,13 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.content.res.TypedArray
+import android.os.Build
+import android.transition.AutoTransition
+import android.transition.TransitionManager
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import kotlinx.android.synthetic.main.item_lembrete.*
 import kotlinx.android.synthetic.main.item_lembrete.view.*
 
 //A classe LembreteAdapter necessita de uma subclasse do tipo RecyclerView.Adapter que deve ser do
@@ -27,6 +31,24 @@ class LembreteAdapter (private val lembretes: List<Lembrete>, private val ctx:Co
 
         //Infla o layout item_lembrete para poder ser usado
         val v = LayoutInflater.from(parent.context).inflate(R.layout.item_lembrete, parent, false)
+
+        val vh = VH(v)
+
+        vh.itemView.btnSeta.setOnClickListener{
+            if(vh.itemView.card_oculto.visibility == View.VISIBLE){
+
+                vh.itemView.btnSeta.setImageResource(R.drawable.ic_baseline_expand_more_24)
+
+                TransitionManager.beginDelayedTransition(vh.itemView.card, AutoTransition())
+                vh.itemView.card_oculto.visibility = View.GONE
+            } else {
+                vh.itemView.btnSeta.setImageResource(R.drawable.ic_baseline_expand_less_24)
+
+                TransitionManager.beginDelayedTransition(vh.itemView.card, AutoTransition())
+                vh.itemView.card_oculto.visibility = View.VISIBLE
+
+            }
+        }
 
         return VH(v)
     }
