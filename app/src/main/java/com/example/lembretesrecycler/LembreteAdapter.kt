@@ -6,16 +6,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.content.res.TypedArray
-import android.os.Build
 import android.transition.AutoTransition
 import android.transition.TransitionManager
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import kotlinx.android.synthetic.main.item_lembrete.*
 import kotlinx.android.synthetic.main.item_lembrete.view.*
-import java.text.SimpleDateFormat
-import java.util.*
 
 //A classe LembreteAdapter necessita de uma subclasse do tipo RecyclerView.Adapter que deve ser do
 //tipo VH(ViewHolder)
@@ -91,7 +87,6 @@ class LembreteAdapter (private val lembretes: List<Lembrete>, private val ctx:Co
             "Importante" -> Color.parseColor("#42A5F5")
             "Flexivel" -> Color.parseColor("#66BB6A")
             else -> Color.WHITE
-
         }
     }
 
