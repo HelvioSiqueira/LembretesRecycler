@@ -102,7 +102,6 @@ class MainActivity : AppCompatActivity() {
 
     //Função que faz com que o lembrete seja excluido ao ser movido pro lado
     private fun initSwipeGesture(){
-
         //Só poderá ser movido pra esquerda e em 0 posições
         val swipe = object: ItemTouchHelper.SimpleCallback(
             ItemTouchHelper.UP or ItemTouchHelper.DOWN,
