@@ -32,7 +32,7 @@ object MemoryRepository : LembretesRepository {
     }
 
     override fun obterLembretes(): List<Lembrete> {
-        return lembretes
+        return this.lembretes
     }
 
     override fun recuperarLembretesAoRotacionar(lembretesSalvos: Any?) {

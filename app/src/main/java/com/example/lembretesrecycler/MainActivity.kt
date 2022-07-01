@@ -9,11 +9,10 @@ import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), MainView {
-
     private val presenter = LembretesPresenter(this, MemoryRepository)
 
     //Criando a lista de lembrete mutavel
-    private var lembretes = showLembretes()
+    var lembretes = presenter.showLembretes()
 
     //Instanciando o LembreteAdapter
     private var adapter = LembreteAdapter(lembretes, this)
