@@ -7,10 +7,9 @@ import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.activity_main.*
-import java.text.SimpleDateFormat
 import java.util.*
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), MainView {
 
     //Criando a lista de lembrete mutavel
     private var lembretes = mutableListOf<Lembrete>()
@@ -72,7 +71,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     //Função que adiciona o lembrete
-    private fun addLembrete(){
+    override fun addLembrete(){
 
         //Instancia um objeto Lembrete passando os itens digitados e selecionados
         val lembrete = Lembrete(
@@ -96,7 +95,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     //Função que faz com que o lembrete seja excluido ao ser movido pro lado
-    private fun initSwipeGesture(){
+    override fun initSwipeGesture(){
         //Só poderá ser movido pra esquerda e em 0 posições
         val swipe = object: ItemTouchHelper.SimpleCallback(
             ItemTouchHelper.UP or ItemTouchHelper.DOWN,
