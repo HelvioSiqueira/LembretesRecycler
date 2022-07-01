@@ -6,6 +6,10 @@ object MemoryRepository : LembretesRepository {
 
     private var lembretes = mutableListOf<Lembrete>()
 
+    init {
+        add(Lembrete("Passear", "Passear com o chachorro", "Urgente", "01/07/2022"))
+    }
+
     override fun add(lembrete: Lembrete) {
 
         if (lembretes.contains(lembrete)) {
@@ -25,5 +29,13 @@ object MemoryRepository : LembretesRepository {
 
     override fun move(from: Int, to: Int) {
         Collections.swap(lembretes, from, to)
+    }
+
+    override fun obterLembretes(): List<Lembrete> {
+        return lembretes
+    }
+
+    override fun recuperarLembretesAoRotacionar(lembretesSalvos: Any?) {
+        lembretes.addAll(lembretesSalvos as Collection<Lembrete>)
     }
 }

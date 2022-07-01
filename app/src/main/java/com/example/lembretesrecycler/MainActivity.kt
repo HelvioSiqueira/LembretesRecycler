@@ -7,12 +7,13 @@ import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.activity_main.*
-import java.util.*
 
 class MainActivity : AppCompatActivity(), MainView {
 
+    private val presenter = LembretesPresenter(this, MemoryRepository)
+
     //Criando a lista de lembrete mutavel
-    private var lembretes = mutableListOf<Lembrete>()
+    private var lembretes = showLembretes()
 
     //Instanciando o LembreteAdapter
     private var adapter = LembreteAdapter(lembretes, this)
@@ -24,7 +25,7 @@ class MainActivity : AppCompatActivity(), MainView {
         //Adiciona os itens salvos quando o aparelho rodou a tela na lista de lembretes
         lastCustomNonConfigurationInstance.let{ savedLembretes ->
             if(savedLembretes is MutableList<*>){
-                lembretes.addAll(savedLembretes.filterIsInstance(Lembrete::class.java))
+                presenter.recuperarLembretesAoRotacionar(savedLembretes)
             }
         }
 
@@ -80,7 +81,7 @@ class MainActivity : AppCompatActivity(), MainView {
             spnPrioridades.selectedItem.toString())
 
         //Adiciona o lembrete na lista de lembretes
-        lembretes.add(lembrete)
+        presenter.addLembrete(lembrete)
 
         //Notifica o adapter que um novo item foi inserido
         adapter.notifyItemInserted(lembretes.lastIndex)
@@ -112,7 +113,8 @@ class MainActivity : AppCompatActivity(), MainView {
                 val to: Int = target.absoluteAdapterPosition
 
                 //Faz a troca de posições na lista lembretes e notifica o adapter da mudança
-                Collections.swap(lembretes, from, to)
+                presenter.trocarPosicao(from, to)
+
                 adapter.notifyItemMoved(from, to)
 
                 return true
@@ -122,12 +124,18 @@ class MainActivity : AppCompatActivity(), MainView {
             //Removemos o lembrete e notificamos o adapter
             override fun onSwiped(viewHolder: RecyclerView.ViewHolder, direction: Int) {
                 val position = viewHolder.absoluteAdapterPosition
-                lembretes.removeAt(position)
+
+                presenter.excluirLembrete(position)
+
                 adapter.notifyItemRemoved(position)
             }
         }
 
         val itemTouchHelper = ItemTouchHelper(swipe)
         itemTouchHelper.attachToRecyclerView(rvLembretes)
+    }
+
+    override fun showLembretes(): List<Lembrete> {
+        return presenter.showLembretes()
     }
 }
