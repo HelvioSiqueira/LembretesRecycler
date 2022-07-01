@@ -78,12 +78,7 @@ class MainActivity : AppCompatActivity() {
         val lembrete = Lembrete(
             edtTitle.text.toString(),
             edtText.text.toString(),
-            spnPrioridades.selectedItem.toString(),
-
-            //Passa a data obtida na função
-            obterData()
-
-        )
+            spnPrioridades.selectedItem.toString())
 
         //Adiciona o lembrete na lista de lembretes
         lembretes.add(lembrete)
@@ -135,16 +130,5 @@ class MainActivity : AppCompatActivity() {
 
         val itemTouchHelper = ItemTouchHelper(swipe)
         itemTouchHelper.attachToRecyclerView(rvLembretes)
-    }
-
-    //Obtem a data atual
-    private fun obterData(): String {
-
-        val date = Calendar.getInstance().time
-
-        //Seleciona o formato da data
-        val dateTimeFormat = SimpleDateFormat("dd/MM/yyyy", Locale.getDefault())
-
-        return dateTimeFormat.format(date).toString()
     }
 }
