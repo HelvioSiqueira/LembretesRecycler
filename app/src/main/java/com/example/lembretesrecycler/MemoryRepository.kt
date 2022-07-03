@@ -7,7 +7,7 @@ object MemoryRepository : LembretesRepository {
     private var lembretes = mutableListOf<Lembrete>()
 
     init {
-        add(Lembrete("Passear", "Passear com o chachorro", "Urgente", "01/07/2022"))
+        add(Lembrete("Passear", "Passear com o cachorro", "Urgente", "01/07/2022"))
     }
 
     override fun add(lembrete: Lembrete) {
@@ -20,6 +20,8 @@ object MemoryRepository : LembretesRepository {
             } else {
                 lembretes.add(lembrete)
             }
+        } else {
+            lembretes.add(lembrete)
         }
     }
 
