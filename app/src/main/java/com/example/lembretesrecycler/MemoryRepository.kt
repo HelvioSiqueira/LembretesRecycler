@@ -38,6 +38,6 @@ object MemoryRepository : LembretesRepository {
     }
 
     override fun recuperarLembretesAoRotacionar(lembretesSalvos: Any?) {
-        lembretes.addAll(lembretesSalvos as Collection<Lembrete>)
+        lembretes = lembretes
     }
 }

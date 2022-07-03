@@ -1,4 +1,5 @@
 package com.example.lembretesrecycler
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
@@ -21,20 +22,13 @@ class MainActivity : AppCompatActivity(), MainView {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //Adiciona os itens salvos quando o aparelho rodou a tela na lista de lembretes
-        lastCustomNonConfigurationInstance.let{ savedLembretes ->
-            if(savedLembretes is MutableList<*>){
-                presenter.recuperarLembretesAoRotacionar(savedLembretes)
-            }
-        }
-
         initSpinner()
         spnPrioridades.setSelection(3)
 
         initRecyclerView()
 
-        fabAdd.setOnClickListener{
-            if (edtTitle.text!!.isBlank()){
+        fabAdd.setOnClickListener {
+            if (edtTitle.text!!.isBlank()) {
                 Toast.makeText(this, "Título em branco", Toast.LENGTH_LONG).show()
             } else {
                 addLembrete()
@@ -42,15 +36,9 @@ class MainActivity : AppCompatActivity(), MainView {
         }
     }
 
-    //Salva os dados da Lista de Lembretes quando a tela é girada
-    @Deprecated("Deprecated in Java")
-    override fun onRetainCustomNonConfigurationInstance(): Any {
-        return lembretes
-    }
-
     //Inicia um spinner com itens a serem selecionados
-    private fun initSpinner(){
-        val prioridades = arrayOf("Urgente", "Importante", "Flexivel","Fixo")
+    private fun initSpinner() {
+        val prioridades = arrayOf("Urgente", "Importante", "Flexivel", "Fixo")
 
         val adapterSpn = ArrayAdapter(this, android.R.layout.simple_spinner_item, prioridades)
 
@@ -60,7 +48,7 @@ class MainActivity : AppCompatActivity(), MainView {
     }
 
     //Inicia o RecycleView como um LinearLayout
-    private fun initRecyclerView(){
+    private fun initRecyclerView() {
         rvLembretes.adapter = adapter
 
         val layoutManager = LinearLayoutManager(this)
@@ -71,13 +59,14 @@ class MainActivity : AppCompatActivity(), MainView {
     }
 
     //Função que adiciona o lembrete
-    override fun addLembrete(){
+    override fun addLembrete() {
 
         //Instancia um objeto Lembrete passando os itens digitados e selecionados
         val lembrete = Lembrete(
             edtTitle.text.toString(),
             edtText.text.toString(),
-            spnPrioridades.selectedItem.toString())
+            spnPrioridades.selectedItem.toString()
+        )
 
         //Adiciona o lembrete na lista de lembretes
         presenter.addLembrete(lembrete)
@@ -95,14 +84,15 @@ class MainActivity : AppCompatActivity(), MainView {
     }
 
     //Função que faz com que o lembrete seja excluido ao ser movido pro lado
-    override fun initSwipeGesture(){
+    override fun initSwipeGesture() {
         //Só poderá ser movido pra esquerda e em 0 posições
-        val swipe = object: ItemTouchHelper.SimpleCallback(
+        val swipe = object : ItemTouchHelper.SimpleCallback(
             ItemTouchHelper.UP or ItemTouchHelper.DOWN,
-            ItemTouchHelper.LEFT){
+            ItemTouchHelper.LEFT
+        ) {
 
             override fun onMove(
-                recyclerView: RecyclerView ,
+                recyclerView: RecyclerView,
                 viewHolder: RecyclerView.ViewHolder,
                 target: RecyclerView.ViewHolder
             ): Boolean {
