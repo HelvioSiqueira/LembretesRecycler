@@ -11,18 +11,7 @@ object MemoryRepository : LembretesRepository {
     }
 
     override fun add(lembrete: Lembrete) {
-
-        if (lembretes.contains(lembrete)) {
-            val index = lembretes.indexOfFirst { it.titulo == lembrete.titulo }
-
-            if (index > -1) {
-                lembretes[index] = lembrete
-            } else {
-                lembretes.add(lembrete)
-            }
-        } else {
-            lembretes.add(lembrete)
-        }
+        lembretes.add(lembrete)
     }
 
     override fun remove(position: Int) {
@@ -31,6 +20,17 @@ object MemoryRepository : LembretesRepository {
 
     override fun move(from: Int, to: Int) {
         Collections.swap(lembretes, from, to)
+    }
+
+    override fun busca(lembrete: Lembrete): Boolean {
+
+        var achou = false
+
+        lembretes.forEach {
+            achou = it.titulo == lembrete.titulo
+        }
+
+        return achou
     }
 
     override fun obterLembretes(): List<Lembrete> {
