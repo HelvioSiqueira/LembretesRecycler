@@ -130,13 +130,15 @@ class MainActivity : AppCompatActivity(), MainView {
         return presenter.showLembretes()
     }
 
+    //Função necessaria que infla a barra de menu
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.lembrete, menu)
         return true
     }
 
+    //Função onde é definida a ação de de cada item do menu
+    //a função usa o id do item definido no layout
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-
         when(item.itemId){
             R.id.action_info ->
                 AboutDialogFragment().show(supportFragmentManager, "sobre")
