@@ -7,5 +7,4 @@ interface LembretesRepository {
     fun move(from: Int, to: Int)
     fun busca(lembrete: Lembrete): Boolean
     fun obterLembretes(): List<Lembrete>
-    fun recuperarLembretesAoRotacionar(lembretesSalvos: Any?)
 }

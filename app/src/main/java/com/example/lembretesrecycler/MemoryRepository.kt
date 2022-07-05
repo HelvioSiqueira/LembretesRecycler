@@ -36,8 +36,4 @@ object MemoryRepository : LembretesRepository {
     override fun obterLembretes(): List<Lembrete> {
         return this.lembretes
     }
-
-    override fun recuperarLembretesAoRotacionar(lembretesSalvos: Any?) {
-        lembretes = lembretes
-    }
 }

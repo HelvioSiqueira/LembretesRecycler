@@ -2,6 +2,8 @@ package com.example.lembretesrecycler
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.recyclerview.widget.ItemTouchHelper
@@ -126,5 +128,14 @@ class MainActivity : AppCompatActivity(), MainView {
 
     override fun showLembretes(): List<Lembrete> {
         return presenter.showLembretes()
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.lembrete, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return super.onOptionsItemSelected(item)
     }
 }

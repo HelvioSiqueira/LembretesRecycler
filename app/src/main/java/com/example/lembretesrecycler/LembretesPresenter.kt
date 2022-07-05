@@ -21,7 +21,4 @@ class LembretesPresenter(
         return repository.obterLembretes()
     }
 
-    fun recuperarLembretesAoRotacionar(lembretesSalvos: Any?){
-        repository.recuperarLembretesAoRotacionar(lembretesSalvos)
-    }
 }
