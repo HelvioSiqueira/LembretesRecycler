@@ -1,4 +1,4 @@
-package com.example.lembretesrecycler
+package com.example.lembretesrecycler.fragments
 
 import android.app.Dialog
 import android.content.DialogInterface
@@ -7,6 +7,7 @@ import android.net.Uri
 import android.os.Bundle
 import androidx.fragment.app.DialogFragment
 import androidx.appcompat.app.AlertDialog
+import com.example.lembretesrecycler.R
 
 //Dialog Fragment que será exibido quando o botão info de menu for clicado
 class AboutDialogFragment: DialogFragment() {

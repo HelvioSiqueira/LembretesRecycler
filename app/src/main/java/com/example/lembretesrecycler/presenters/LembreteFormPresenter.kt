@@ -1,8 +1,14 @@
-package com.example.lembretesrecycler
+package com.example.lembretesrecycler.presenters
+
+import com.example.lembretesrecycler.Lembrete
+import com.example.lembretesrecycler.LembreteValidator
+import com.example.lembretesrecycler.repositorys.LembretesRepository
+import com.example.lembretesrecycler.views.LembreteFormView
 
 class LembreteFormPresenter(
     private val view: LembreteFormView,
-    private val repository: LembretesRepository) {
+    private val repository: LembretesRepository
+) {
 
     private val validator = LembreteValidator()
 

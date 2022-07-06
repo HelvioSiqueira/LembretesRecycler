@@ -1,4 +1,4 @@
-package com.example.lembretesrecycler
+package com.example.lembretesrecycler.fragments
 
 import android.os.Bundle
 import android.view.*
@@ -7,6 +7,11 @@ import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.FragmentManager
+import com.example.lembretesrecycler.Lembrete
+import com.example.lembretesrecycler.R
+import com.example.lembretesrecycler.presenters.LembreteFormPresenter
+import com.example.lembretesrecycler.repositorys.MemoryRepository
+import com.example.lembretesrecycler.views.LembreteFormView
 import kotlinx.android.synthetic.main.fragment_lembrete_form.*
 
 class LembreteFormFragment: DialogFragment(), LembreteFormView {

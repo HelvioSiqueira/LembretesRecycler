@@ -7,6 +7,11 @@ import android.view.MenuItem
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.lembretesrecycler.fragments.AboutDialogFragment
+import com.example.lembretesrecycler.fragments.LembreteFormFragment
+import com.example.lembretesrecycler.presenters.LembretesPresenter
+import com.example.lembretesrecycler.repositorys.MemoryRepository
+import com.example.lembretesrecycler.views.MainView
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), MainView {

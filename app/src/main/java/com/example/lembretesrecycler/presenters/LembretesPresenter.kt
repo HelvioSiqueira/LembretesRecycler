@@ -1,4 +1,8 @@
-package com.example.lembretesrecycler
+package com.example.lembretesrecycler.presenters
+
+import com.example.lembretesrecycler.Lembrete
+import com.example.lembretesrecycler.repositorys.LembretesRepository
+import com.example.lembretesrecycler.views.MainView
 
 class LembretesPresenter(
     private val view: MainView,

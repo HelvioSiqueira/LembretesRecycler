@@ -1,4 +1,4 @@
-package com.example.lembretesrecycler
+package com.example.lembretesrecycler.views
 
 interface LembreteFormView {
     fun errorInvalidLembrete()

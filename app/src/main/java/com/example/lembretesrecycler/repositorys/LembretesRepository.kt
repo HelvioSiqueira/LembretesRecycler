@@ -1,4 +1,6 @@
-package com.example.lembretesrecycler
+package com.example.lembretesrecycler.repositorys
+
+import com.example.lembretesrecycler.Lembrete
 
 interface LembretesRepository {
 
