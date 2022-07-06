@@ -25,6 +25,8 @@ class LembreteFormFragment: DialogFragment(), LembreteFormView {
 
         initSpinner()
 
+        //setOnEditorActionListener() pega a entrada que foi digitada no teclado
+        //i = interaction
         edtText.setOnEditorActionListener { _, i, _ ->
             hadleKeyboardEvent(i)
         }
@@ -43,16 +45,14 @@ class LembreteFormFragment: DialogFragment(), LembreteFormView {
         Toast.makeText(requireContext(), R.string.error_lembrete_add, Toast.LENGTH_LONG).show()
     }
 
+    //hadleKeyboardEvent() checa a entrada que foi passada pra ele e
+    //se for um IME_ACTION_DONE instancia a função saveLembrete()(que efetivamente irá salvar o lembrete)
+    //dialog?.dismiss() fechar o dialog
     private fun hadleKeyboardEvent(actionId: Int): Boolean{
         if(EditorInfo.IME_ACTION_DONE == actionId){
             val lembrete = saveLembrete()
 
             if(lembrete != null){
-                if(activity is OnLembreteSavedListener){
-                    val listener = activity as OnLembreteSavedListener
-                    listener.onLembreteSaved(lembrete)
-                }
-
                 dialog?.dismiss()
                 return true
             }
@@ -60,6 +60,8 @@ class LembreteFormFragment: DialogFragment(), LembreteFormView {
         return false
     }
 
+    //Função pega os dados digitados adiciona-os no objeto lembrete
+    //e chamama o saveLembrete() do presenter
     private fun saveLembrete(): Lembrete?{
         val lembrete = Lembrete()
 
@@ -67,10 +69,10 @@ class LembreteFormFragment: DialogFragment(), LembreteFormView {
         lembrete.texto = edtText.text.toString()
         lembrete.prioridade = spnPrioridades.selectedItem.toString()
 
-        if(presenter.saveLembrete(lembrete)){
-            return lembrete
+        return if(presenter.saveLembrete(lembrete)){
+            lembrete
         } else {
-            return null
+            null
         }
     }
 
@@ -89,10 +91,6 @@ class LembreteFormFragment: DialogFragment(), LembreteFormView {
         adapterSpn.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
 
         spnPrioridades.adapter = adapterSpn
-    }
-
-    interface OnLembreteSavedListener{
-        fun onLembreteSaved(lembrete: Lembrete)
     }
 
     companion object{
