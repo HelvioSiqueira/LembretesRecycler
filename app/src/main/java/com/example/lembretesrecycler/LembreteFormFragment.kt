@@ -7,10 +7,7 @@ import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.FragmentManager
-import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.fragment_lembrete_form.*
-import kotlinx.android.synthetic.main.fragment_lembrete_form.edtText
-import kotlinx.android.synthetic.main.fragment_lembrete_form.spnPrioridades
 
 class LembreteFormFragment: DialogFragment(), LembreteFormView {
 
@@ -83,6 +80,7 @@ class LembreteFormFragment: DialogFragment(), LembreteFormView {
         }
     }
 
+    //Inicia um spinner com itens a serem selecionados
     private fun initSpinner() {
         val prioridades = arrayOf("Urgente", "Importante", "Flexivel", "Fixo")
 

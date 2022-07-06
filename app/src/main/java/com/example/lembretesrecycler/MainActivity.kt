@@ -4,8 +4,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.ArrayAdapter
-import android.widget.Toast
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -24,30 +22,9 @@ class MainActivity : AppCompatActivity(), MainView {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        initSpinner()
-        spnPrioridades.setSelection(3)
-
         initRecyclerView()
-
-        fabAdd.setOnClickListener {
-            if (edtTitle.text!!.isBlank()) {
-                Toast.makeText(this, "Título em branco", Toast.LENGTH_LONG).show()
-            } else {
-                addLembrete()
-            }
-        }
     }
 
-    //Inicia um spinner com itens a serem selecionados
-    private fun initSpinner() {
-        val prioridades = arrayOf("Urgente", "Importante", "Flexivel", "Fixo")
-
-        val adapterSpn = ArrayAdapter(this, android.R.layout.simple_spinner_item, prioridades)
-
-        adapterSpn.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-
-        spnPrioridades.adapter = adapterSpn
-    }
 
     //Inicia o RecycleView como um LinearLayout
     private fun initRecyclerView() {
@@ -58,31 +35,6 @@ class MainActivity : AppCompatActivity(), MainView {
         rvLembretes.layoutManager = layoutManager
 
         initSwipeGesture()
-    }
-
-    //Função que adiciona o lembrete
-    override fun addLembrete() {
-
-        //Instancia um objeto Lembrete passando os itens digitados e selecionados
-        val lembrete = Lembrete(
-            edtTitle.text.toString(),
-            edtText.text.toString(),
-            spnPrioridades.selectedItem.toString()
-        )
-
-        //Adiciona o lembrete na lista de lembretes
-        presenter.addLembrete(lembrete)
-
-        //Notifica o adapter que um novo item foi inserido
-        adapter.notifyItemInserted(lembretes.lastIndex)
-
-        //Limpa os InputText e deixa o edtTitle selecionado
-        edtTitle.text?.clear()
-        edtText.text?.clear()
-        edtTitle.requestFocus()
-
-        //Seleciona "Fixo" no spinner
-        spnPrioridades.setSelection(3)
     }
 
     //Função que faz com que o lembrete seja excluido ao ser movido pro lado
