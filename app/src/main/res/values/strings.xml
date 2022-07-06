@@ -16,4 +16,7 @@
     <string name="about_message">Desenvolvido por Helvio</string>
     <string name="about_button_site">Site</string>
 
+    <string name="error_invalid_lembrete">Lembrete não preenchido corretamente</string>
+    <string name="error_lembrete_add">Não foi possivel adicionar</string>
+
 </resources>

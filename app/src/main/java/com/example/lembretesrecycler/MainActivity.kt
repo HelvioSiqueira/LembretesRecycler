@@ -142,6 +142,9 @@ class MainActivity : AppCompatActivity(), MainView {
         when(item.itemId){
             R.id.action_info ->
                 AboutDialogFragment().show(supportFragmentManager, "sobre")
+
+            R.id.action_new ->
+                LembreteFormFragment().open(supportFragmentManager)
         }
 
         return super.onOptionsItemSelected(item)
