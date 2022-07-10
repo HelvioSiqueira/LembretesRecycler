@@ -2,6 +2,7 @@ package com.example.lembretesrecycler.repositorys
 
 import com.example.lembretesrecycler.Lembrete
 import java.util.*
+import javax.security.auth.callback.Callback
 
 object MemoryRepository : LembretesRepository {
 
@@ -15,7 +16,10 @@ object MemoryRepository : LembretesRepository {
         lembretes.add(lembrete)
     }
 
-    override fun remove(position: Int) {
+    override fun remove(position: Int, callback: (Lembrete) -> Unit) {
+
+        callback(lembretes[position])
+
         lembretes.removeAt(position)
     }
 

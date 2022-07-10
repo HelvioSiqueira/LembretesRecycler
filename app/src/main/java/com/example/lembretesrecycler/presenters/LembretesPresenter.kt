@@ -9,8 +9,17 @@ class LembretesPresenter(
     private val repository: LembretesRepository
 ) {
 
+    private var deletedLembrete = Lembrete()
+
     fun excluirLembrete(position: Int) {
-        repository.remove(position)
+        repository.remove(position){
+            deletedLembrete = it
+        }
+        view.showMessageLembreteDeleted()
+    }
+
+    fun reverterExclusao(){
+        repository.add(deletedLembrete)
     }
 
     fun trocarPosicao(from: Int, to: Int) {

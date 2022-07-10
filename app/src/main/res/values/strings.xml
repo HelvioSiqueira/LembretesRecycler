@@ -19,4 +19,7 @@
     <string name="error_invalid_lembrete">Lembrete não preenchido corretamente</string>
     <string name="error_lembrete_add">Não foi possivel adicionar</string>
 
+    <string name="message_lembrete_deleted">Lembrete Excluido</string>
+    <string name="undo">Desfazer</string>
+
 </resources>

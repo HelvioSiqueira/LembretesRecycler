@@ -11,13 +11,14 @@ import android.transition.TransitionManager
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.lembretesrecycler.fragments.LembreteListFragment
 import kotlinx.android.synthetic.main.item_lembrete.view.*
 
 //A classe LembreteAdapter necessita de uma subclasse do tipo RecyclerView.Adapter que deve ser do
 //tipo VH(ViewHolder)
 
 //Uso o ctx para poder ter acesso aos arquivo de layout array
-class LembreteAdapter (private val lembretes: List<Lembrete>, private val ctx:Context) : RecyclerView.Adapter<LembreteAdapter.VH>(){
+class LembreteAdapter(private val lembretes: List<Lembrete>, private val ctx: LembreteListFragment) : RecyclerView.Adapter<LembreteAdapter.VH>(){
 
     //Objeto TypedArray que só será iniciado quando for usado a primeira vez
     private val icones: TypedArray by lazy{
