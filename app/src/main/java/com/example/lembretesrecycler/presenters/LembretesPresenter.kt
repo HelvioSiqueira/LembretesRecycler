@@ -9,10 +9,6 @@ class LembretesPresenter(
     private val repository: LembretesRepository
 ) {
 
-    fun addLembrete(lembrete: Lembrete) {
-        repository.add(lembrete)
-    }
-
     fun excluirLembrete(position: Int) {
         repository.remove(position)
     }

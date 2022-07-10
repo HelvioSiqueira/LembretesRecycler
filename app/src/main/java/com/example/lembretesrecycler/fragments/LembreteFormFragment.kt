@@ -67,7 +67,7 @@ class LembreteFormFragment: DialogFragment(), LembreteFormView {
 
     //Função pega os dados digitados adiciona-os no objeto lembrete
     //e chamama o saveLembrete() do presenter
-    private fun saveLembrete(): Lembrete?{
+    override fun saveLembrete(): Lembrete?{
         val lembrete = Lembrete()
 
         lembrete.titulo = edtText.text.toString()
