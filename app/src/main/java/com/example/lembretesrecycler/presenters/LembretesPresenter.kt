@@ -11,6 +11,7 @@ class LembretesPresenter(
 
     private var deletedLembrete = Lembrete()
 
+    //Recebe o lembrete passado como callback e salva na variavel
     fun excluirLembrete(position: Int) {
         repository.remove(position){
             deletedLembrete = it
@@ -18,6 +19,7 @@ class LembretesPresenter(
         view.showMessageLembreteDeleted()
     }
 
+    //Adiciona novamente novamente o lembrete salvo na deletedLembrete
     fun reverterExclusao(){
         repository.add(deletedLembrete)
     }
