@@ -1,6 +1,5 @@
 package com.example.lembretesrecycler
 
-import android.content.Context
 import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.View

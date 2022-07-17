@@ -70,7 +70,7 @@ class LembreteFormFragment: DialogFragment(), LembreteFormView {
     override fun saveLembrete(): Lembrete?{
         val lembrete = Lembrete()
 
-        lembrete.titulo = edtText.text.toString()
+        lembrete.titulo = edtTitle.text.toString()
         lembrete.texto = edtText.text.toString()
         lembrete.prioridade = spnPrioridades.selectedItem.toString()
 

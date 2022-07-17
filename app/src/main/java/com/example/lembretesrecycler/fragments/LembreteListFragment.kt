@@ -2,7 +2,6 @@ package com.example.lembretesrecycler.fragments
 
 import android.annotation.SuppressLint
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -29,6 +28,10 @@ class LembreteListFragment : Fragment(), MainView {
     //Instanciando o LembreteAdapter
     private var adapter = LembreteAdapter(lembretes, this)
 
+    //Variavel que irá salvar o termo da pesquisa
+    //Para poder ser usado em um filter no repository.remove()
+    //Evitando assim um bug(Quando fazia pesquisa e um lembrete era deletado
+    // o lembrete excluido na verdade era o que tinha o indice da posição do lembrete da pesquisa)
     private var term = ""
 
     override fun onCreateView(
