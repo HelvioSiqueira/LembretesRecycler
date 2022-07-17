@@ -28,10 +28,12 @@ object MemoryRepository : LembretesRepository {
     }
 
     //Passa o lembrete excluido como callback para ser possivel reverter a exclusão
-    override fun remove(position: Int, callback: (Lembrete) -> Unit) {
-        callback(lembretes[position])
+    override fun remove(position: Int, term: String, callback: (Lembrete) -> Unit) {
+        search(term){
+            callback(it[position])
 
-        lembretes.removeAt(position)
+            lembretes.remove(it[position])
+        }
     }
 
     override fun move(from: Int, to: Int) {

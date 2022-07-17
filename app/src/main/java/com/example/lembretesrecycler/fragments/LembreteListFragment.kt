@@ -2,6 +2,7 @@ package com.example.lembretesrecycler.fragments
 
 import android.annotation.SuppressLint
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -16,6 +17,7 @@ import com.example.lembretesrecycler.presenters.LembretesPresenter
 import com.example.lembretesrecycler.repositorys.MemoryRepository
 import com.example.lembretesrecycler.views.MainView
 import com.google.android.material.snackbar.Snackbar
+import kotlinx.android.synthetic.main.fragment_lembrete_form.view.*
 import kotlinx.android.synthetic.main.lembrete_list.*
 
 class LembreteListFragment : Fragment(), MainView {
@@ -26,6 +28,8 @@ class LembreteListFragment : Fragment(), MainView {
 
     //Instanciando o LembreteAdapter
     private var adapter = LembreteAdapter(lembretes, this)
+
+    private var term = ""
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -83,7 +87,9 @@ class LembreteListFragment : Fragment(), MainView {
             override fun onSwiped(viewHolder: RecyclerView.ViewHolder, direction: Int) {
                 val position = viewHolder.absoluteAdapterPosition
 
-                presenter.excluirLembrete(position)
+                presenter.excluirLembrete(position, term)
+
+                presenter.searchLembretes(term)
 
                 adapter.notifyItemRemoved(position)
             }
@@ -105,12 +111,14 @@ class LembreteListFragment : Fragment(), MainView {
             Snackbar.LENGTH_LONG).setAction(R.string.undo){
             presenter.reverterExclusao()
             adapter.notifyDataSetChanged()
+            presenter.searchLembretes(term)
         }
             .show()
     }
 
     fun search(text: String){
         presenter.searchLembretes(text)
+        term = text
     }
 
     fun clearSearch(){

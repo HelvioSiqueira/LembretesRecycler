@@ -80,6 +80,7 @@ class MainActivity :
     override fun onMenuItemActionCollapse(p0: MenuItem?): Boolean {
         lastTermSearch = ""
         listFragment.clearSearch()
+
         return true
     }
 }

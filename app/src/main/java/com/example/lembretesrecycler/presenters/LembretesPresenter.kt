@@ -12,8 +12,8 @@ class LembretesPresenter(
     private var deletedLembrete = Lembrete()
 
     //Recebe o lembrete passado como callback e salva na variavel
-    fun excluirLembrete(position: Int) {
-        repository.remove(position){
+    fun excluirLembrete(position: Int, term: String) {
+        repository.remove(position, term){
             deletedLembrete = it
         }
         view.showMessageLembreteDeleted()
