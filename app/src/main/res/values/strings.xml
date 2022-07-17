@@ -11,7 +11,7 @@
 
     <string name="descricao_btn_seta">Botão para expandir lembrete</string>
 
-    <string name="action_new_lembrete">Novo lembrete</string>
+    <string name="action_search">Pesquisar lembrete</string>
     <string name="action_info">Info</string>
 
     <string name="about_title">Dominando o Android</string>

@@ -108,4 +108,12 @@ class LembreteListFragment : Fragment(), MainView {
         }
             .show()
     }
+
+    fun search(text: String){
+        presenter.searchLembretes(text)
+    }
+
+    fun clearSearch(){
+        presenter.searchLembretes("")
+    }
 }

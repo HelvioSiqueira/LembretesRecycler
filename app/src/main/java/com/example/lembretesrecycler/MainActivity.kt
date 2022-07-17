@@ -2,6 +2,7 @@ package com.example.lembretesrecycler
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
 import android.view.Menu
 import android.view.MenuItem
 import com.example.lembretesrecycler.fragments.AboutDialogFragment
@@ -19,6 +20,9 @@ class MainActivity :
         supportFragmentManager.findFragmentById(R.id.fragmentList) as LembreteListFragment
     }
 
+    private var searchView: SearchView? = null
+    private var lastTermSearch: String = ""
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -31,6 +35,22 @@ class MainActivity :
     //Função necessaria que infla a barra de menu
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.lembrete, menu)
+
+        val searchItem = menu?.findItem(R.id.action_search)
+        searchItem?.setOnActionExpandListener(this)
+        searchView = searchItem?.actionView as SearchView
+        searchView?.queryHint = getString(R.string.action_search)
+        searchView?.setOnQueryTextListener(this)
+
+        if(lastTermSearch.isNotEmpty()){
+            Handler().post {
+                val query = lastTermSearch
+                searchItem.expandActionView()
+                searchView?.setQuery(query, true)
+                searchView?.clearFocus()
+            }
+        }
+
         return true
     }
 
@@ -49,12 +69,17 @@ class MainActivity :
     override fun onQueryTextSubmit(query: String?) = true
 
     override fun onQueryTextChange(newText: String?): Boolean {
-        TODO("Not yet implemented")
+        lastTermSearch = newText ?: ""
+        listFragment.search(lastTermSearch)
+
+        return true
     }
 
     override fun onMenuItemActionExpand(p0: MenuItem?) = true
 
     override fun onMenuItemActionCollapse(p0: MenuItem?): Boolean {
-        TODO("Not yet implemented")
+        lastTermSearch = ""
+        listFragment.clearSearch()
+        return true
     }
 }
