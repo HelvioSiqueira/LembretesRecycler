@@ -6,12 +6,17 @@ import android.view.Menu
 import android.view.MenuItem
 import com.example.lembretesrecycler.fragments.AboutDialogFragment
 import com.example.lembretesrecycler.fragments.LembreteFormFragment
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        fadAdd.setOnClickListener {
+            LembreteFormFragment().open(supportFragmentManager)
+        }
     }
 
     //Função necessaria que infla a barra de menu
@@ -27,8 +32,6 @@ class MainActivity : AppCompatActivity() {
             R.id.action_info ->
                 AboutDialogFragment().show(supportFragmentManager, "sobre")
 
-            R.id.action_new ->
-                LembreteFormFragment().open(supportFragmentManager)
         }
 
         return super.onOptionsItemSelected(item)
