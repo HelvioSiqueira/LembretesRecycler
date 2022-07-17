@@ -2,7 +2,6 @@ package com.example.lembretesrecycler.repositorys
 
 import com.example.lembretesrecycler.Lembrete
 import java.util.*
-import javax.security.auth.callback.Callback
 
 object MemoryRepository : LembretesRepository {
 
@@ -14,6 +13,15 @@ object MemoryRepository : LembretesRepository {
 
     override fun add(lembrete: Lembrete) {
         lembretes.add(lembrete)
+    }
+
+    override fun search(term: String, callback: (List<Lembrete>) -> Unit) {
+        callback(
+            if (term.isEmpty()) lembretes
+            else lembretes.filter {
+                it.titulo.uppercase().contains(term.uppercase())
+            }
+        )
     }
 
     //Passa o lembrete excluido como callback para ser possivel reverter a exclusão

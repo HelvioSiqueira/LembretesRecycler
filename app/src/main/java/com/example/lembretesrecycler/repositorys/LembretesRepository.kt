@@ -5,6 +5,7 @@ import com.example.lembretesrecycler.Lembrete
 interface LembretesRepository {
 
     fun add(lembrete: Lembrete)
+    fun search(term: String, callback: (List<Lembrete>) -> Unit)
     fun remove(position: Int, callback: (Lembrete) -> Unit)
     fun move(from: Int, to: Int)
     fun busca(lembrete: Lembrete): Boolean

@@ -19,6 +19,12 @@ class LembretesPresenter(
         view.showMessageLembreteDeleted()
     }
 
+    fun searchLembretes(term: String){
+        repository.search(term){ lembretes ->
+            view.showLembretes(lembretes)
+        }
+    }
+
     //Adiciona novamente novamente o lembrete salvo na deletedLembrete
     fun reverterExclusao(){
         repository.add(deletedLembrete)

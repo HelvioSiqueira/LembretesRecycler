@@ -4,6 +4,6 @@ import com.example.lembretesrecycler.Lembrete
 
 interface MainView {
     fun initSwipeGesture()
-    fun showLembretes(): List<Lembrete>
+    fun showLembretes(lembretes: List<Lembrete>)
     fun showMessageLembreteDeleted()
 }

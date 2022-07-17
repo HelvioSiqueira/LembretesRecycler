@@ -38,11 +38,11 @@ class LembreteListFragment : Fragment(), MainView {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        initRecyclerView()
+        presenter.searchLembretes("")
     }
 
     //Inicia o RecycleView como um LinearLayout
-    private fun initRecyclerView() {
+    private fun initRecyclerView(adapter: LembreteAdapter) {
         rvLembretes.adapter = adapter
 
         val layoutManager = LinearLayoutManager(requireContext())
@@ -93,8 +93,9 @@ class LembreteListFragment : Fragment(), MainView {
         itemTouchHelper.attachToRecyclerView(rvLembretes)
     }
 
-    override fun showLembretes(): List<Lembrete> {
-        return presenter.showLembretes()
+    override fun showLembretes(lembretes: List<Lembrete>) {
+        adapter = LembreteAdapter(lembretes, this)
+        initRecyclerView(adapter)
     }
 
     @SuppressLint("NotifyDataSetChanged")
