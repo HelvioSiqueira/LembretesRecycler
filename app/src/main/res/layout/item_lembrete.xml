@@ -47,12 +47,13 @@
 
                 <TextView
                     android:id="@+id/txtTexto"
-                    android:layout_width="250dp"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
                     android:textSize="16sp"
                     app:layout_constraintStart_toEndOf="@+id/icone"
                     app:layout_constraintTop_toBottomOf="@+id/txtTitulo"
+                    app:layout_constraintEnd_toStartOf="@id/btnSeta"
                     android:ellipsize="end"
                     android:maxLines="1"/>
 
@@ -62,6 +63,7 @@
                     android:layout_height="wrap_content"
                     android:backgroundTint="#00FFFFFF"
                     android:contentDescription="@string/descricao_btn_seta"
+                    android:minHeight="48dp"
                     android:src="@drawable/ic_baseline_expand_more_24"
                     app:layout_constraintBottom_toBottomOf="@id/icone"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -79,9 +81,9 @@
                     android:id="@+id/dataAdd"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    android:layout_margin="10dp"/>
+                    app:layout_constraintEnd_toEndOf="parent" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 

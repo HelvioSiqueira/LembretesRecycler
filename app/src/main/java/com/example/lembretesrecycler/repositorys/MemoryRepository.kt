@@ -11,7 +11,8 @@ object MemoryRepository : LembretesRepository {
         add(Lembrete("Passear", "Passear com o cachorro", "Urgente", "01/07/2022"))
         add(Lembrete("Jogar", "Dlc de the witcher", "Flexivel", "01/07/2022"))
         add(Lembrete("Correr na praça", "Até 19h", "Importante", "01/07/2022"))
-        add(Lembrete("Passar roupa", "Passar roupa quanto terminar de lavar", "Urgente", "01/07/2022"))
+        add(Lembrete("Passar roupa", "Passar roupa quando terminar de lavar", "Urgente", "01/07/2022"))
+        add(Lembrete("Fazer o almoço", "Macarrão com queijo e molho de tomate, talvez com carne", "Urgente", "01/07/2022"))
     }
 
     override fun add(lembrete: Lembrete) {
