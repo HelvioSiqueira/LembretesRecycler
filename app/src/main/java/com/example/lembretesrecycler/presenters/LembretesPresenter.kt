@@ -1,5 +1,6 @@
 package com.example.lembretesrecycler.presenters
 
+import android.util.Log
 import com.example.lembretesrecycler.Lembrete
 import com.example.lembretesrecycler.repositorys.LembretesRepository
 import com.example.lembretesrecycler.views.MainView

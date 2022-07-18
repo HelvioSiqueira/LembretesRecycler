@@ -16,7 +16,6 @@ import com.example.lembretesrecycler.presenters.LembretesPresenter
 import com.example.lembretesrecycler.repositorys.MemoryRepository
 import com.example.lembretesrecycler.views.MainView
 import com.google.android.material.snackbar.Snackbar
-import kotlinx.android.synthetic.main.fragment_lembrete_form.view.*
 import kotlinx.android.synthetic.main.lembrete_list.*
 
 class LembreteListFragment : Fragment(), MainView {
@@ -33,6 +32,7 @@ class LembreteListFragment : Fragment(), MainView {
     //Evitando assim um bug(Quando fazia pesquisa e um lembrete era deletado
     // o lembrete excluido na verdade era o que tinha o indice da posição do lembrete da pesquisa)
     private var term = ""
+    private var lastTerm = ""
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -46,17 +46,19 @@ class LembreteListFragment : Fragment(), MainView {
         super.onViewCreated(view, savedInstanceState)
 
         presenter.searchLembretes("")
+
+        initSwipeGesture()
     }
 
     //Inicia o RecycleView como um LinearLayout
     private fun initRecyclerView(adapter: LembreteAdapter) {
+
         rvLembretes.adapter = adapter
 
         val layoutManager = LinearLayoutManager(requireContext())
 
         rvLembretes.layoutManager = layoutManager
 
-        initSwipeGesture()
     }
 
     //Função que faz com que o lembrete seja excluido ao ser movido pro lado
@@ -80,6 +82,10 @@ class LembreteListFragment : Fragment(), MainView {
                 //Faz a troca de posições na lista lembretes e notifica o adapter da mudança
                 presenter.trocarPosicao(from, to)
 
+                //Log.i("HSV", viewHolder.itemView.txtTitulo.text.toString())
+
+                //Log.i("HSV", "From: $from | To: $to")
+
                 adapter.notifyItemMoved(from, to)
 
                 return true
@@ -92,9 +98,9 @@ class LembreteListFragment : Fragment(), MainView {
 
                 presenter.excluirLembrete(position, term)
 
-                presenter.searchLembretes(term)
-
                 adapter.notifyItemRemoved(position)
+
+                presenter.searchLembretes(lastTerm)
             }
         }
         val itemTouchHelper = ItemTouchHelper(swipe)
@@ -103,6 +109,7 @@ class LembreteListFragment : Fragment(), MainView {
     }
 
     override fun showLembretes(lembretes: List<Lembrete>) {
+
         adapter = LembreteAdapter(lembretes, this)
         initRecyclerView(adapter)
     }
@@ -120,6 +127,7 @@ class LembreteListFragment : Fragment(), MainView {
     }
 
     fun search(text: String){
+        lastTerm = text
         presenter.searchLembretes(text)
         term = text
     }

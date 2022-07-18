@@ -100,7 +100,4 @@ class LembreteAdapter(private val lembretes: List<Lembrete>, private val ctx: Le
         }
         return  ic
     }
-
-
-
 }
