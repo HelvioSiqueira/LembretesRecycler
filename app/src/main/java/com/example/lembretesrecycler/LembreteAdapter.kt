@@ -5,10 +5,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.content.res.TypedArray
+import android.os.Build
 import android.transition.AutoTransition
 import android.transition.TransitionManager
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.annotation.RequiresApi
 import androidx.recyclerview.widget.RecyclerView
 import com.example.lembretesrecycler.fragments.LembreteListFragment
 import kotlinx.android.synthetic.main.item_lembrete.view.*
@@ -25,6 +27,7 @@ class LembreteAdapter(private val lembretes: List<Lembrete>, private val ctx: Le
     }
 
     //Cria a instancia do ViewHolder baseado no layout item_lembrete
+    @RequiresApi(Build.VERSION_CODES.M)
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): VH {
 
         //Infla o layout item_lembrete para poder ser usado
@@ -39,12 +42,15 @@ class LembreteAdapter(private val lembretes: List<Lembrete>, private val ctx: Le
 
                 TransitionManager.beginDelayedTransition(vh.itemView.card, AutoTransition())
                 vh.itemView.card_oculto.visibility = View.GONE
+
+                vh.txtText.maxLines = 1
             } else {
                 vh.itemView.btnSeta.setImageResource(R.drawable.ic_baseline_expand_less_24)
 
                 TransitionManager.beginDelayedTransition(vh.itemView.card, AutoTransition())
                 vh.itemView.card_oculto.visibility = View.VISIBLE
 
+                vh.txtText.maxLines = 5
             }
         }
 

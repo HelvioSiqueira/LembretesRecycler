@@ -7,5 +7,5 @@ class LembreteValidator {
     }
 
     private fun checkTitulo(titulo: String) = titulo.length in 2..20
-    private fun checkTexto(texto: String) = texto.length in 4..80
+    private fun checkTexto(texto: String) = texto.length in 4..800
 }

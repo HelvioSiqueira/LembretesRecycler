@@ -2,6 +2,7 @@ package com.example.lembretesrecycler.fragments
 
 import android.annotation.SuppressLint
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -82,10 +83,6 @@ class LembreteListFragment : Fragment(), MainView {
                 //Faz a troca de posições na lista lembretes e notifica o adapter da mudança
                 presenter.trocarPosicao(from, to)
 
-                //Log.i("HSV", viewHolder.itemView.txtTitulo.text.toString())
-
-                //Log.i("HSV", "From: $from | To: $to")
-
                 adapter.notifyItemMoved(from, to)
 
                 return true
@@ -96,11 +93,16 @@ class LembreteListFragment : Fragment(), MainView {
             override fun onSwiped(viewHolder: RecyclerView.ViewHolder, direction: Int) {
                 val position = viewHolder.absoluteAdapterPosition
 
+                //Log.i("HSV", "${adapter}")
+
                 presenter.excluirLembrete(position, term)
 
                 adapter.notifyItemRemoved(position)
 
-                presenter.searchLembretes(lastTerm)
+                //Gambiarra, ainda vou tentar resolver kkkkkkkk
+                if(adapter.itemCount < lembretes.size){
+                    presenter.searchLembretes(lastTerm)
+                }
             }
         }
         val itemTouchHelper = ItemTouchHelper(swipe)
