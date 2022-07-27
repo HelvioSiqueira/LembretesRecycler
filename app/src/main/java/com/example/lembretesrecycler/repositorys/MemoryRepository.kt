@@ -8,11 +8,11 @@ object MemoryRepository : LembretesRepository {
     private var lembretes = mutableListOf<Lembrete>()
 
     init {
-        add(Lembrete("Passear", "Passear com o cachorro", "Urgente", "01/07/2022"))
-        add(Lembrete("Jogar", "Dlc de the witcher", "Flexivel", "01/07/2022"))
-        add(Lembrete("Correr na praça", "Até 19h", "Importante", "01/07/2022"))
-        add(Lembrete("Passar roupa", "Passar roupa quando terminar de lavar", "Urgente", "01/07/2022"))
-        add(Lembrete("Fazer o almoço", "Macarrão com queijo e molho de tomate, talvez com carne", "Urgente", "01/07/2022"))
+        add(Lembrete("Passear", "Passear com o cachorro", "Urgente", ""))
+        add(Lembrete("Jogar", "Dlc de the Witcher 3", "Flexivel", ""))
+        add(Lembrete("Correr na praça", "Até 19h", "Importante", ""))
+        add(Lembrete("Passar roupa", "Passar roupa quando terminar de lavar", "Urgente", ""))
+        add(Lembrete("Fazer compras", "Precisa comprar o que falta pra fazer o almoço(cebola, batata, macarrão)", "Urgente", ""))
     }
 
     override fun add(lembrete: Lembrete) {
