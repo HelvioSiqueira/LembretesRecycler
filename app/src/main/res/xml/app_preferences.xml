@@ -7,4 +7,14 @@
         android:entries="@array/tamanhos"
         android:entryValues="@array/tamanho_values"
         android:defaultValue="@string/tamanho_default"/>
+
+    <MultiSelectListPreference>
+        <extra
+            android:name="t4t4t3"
+            android:value="r2r23r"/>
+
+
+    </MultiSelectListPreference>
+
+
 </PreferenceScreen>
