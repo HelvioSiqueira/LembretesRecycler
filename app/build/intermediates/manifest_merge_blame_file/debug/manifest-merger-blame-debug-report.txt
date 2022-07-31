@@ -1,0 +1,88 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.lembretesrecycler"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:6:5-25:19
+12        android:allowBackup="true"
+12-->D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] C:\Users\helvi\.gradle\caches\transforms-3\4825226d7bdc18dc642f18a8a048b277\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:8:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:9:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:11:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:12:9-54
+20        android:supportsRtl="true"
+20-->D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:13:9-35
+21        android:theme="@style/Theme.LembretesRecycler" >
+21-->D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:14:9-55
+22        <activity
+22-->D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:16:9-24:20
+23            android:name="com.example.lembretesrecycler.MainActivity"
+23-->D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:17:13-41
+24            android:exported="true" >
+24-->D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:18:13-36
+25            <intent-filter>
+25-->D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:19:13-23:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:20:17-69
+26-->D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:20:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:22:17-77
+28-->D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:22:27-74
+29            </intent-filter>
+30        </activity>
+31
+32        <uses-library
+32-->[androidx.window:window:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\ce4907934619d5ea0150f25288c4f865\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+33            android:name="androidx.window.extensions"
+33-->[androidx.window:window:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\ce4907934619d5ea0150f25288c4f865\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+34            android:required="false" />
+34-->[androidx.window:window:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\ce4907934619d5ea0150f25288c4f865\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+35        <uses-library
+35-->[androidx.window:window:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\ce4907934619d5ea0150f25288c4f865\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+36            android:name="androidx.window.sidecar"
+36-->[androidx.window:window:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\ce4907934619d5ea0150f25288c4f865\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+37            android:required="false" />
+37-->[androidx.window:window:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\ce4907934619d5ea0150f25288c4f865\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+38
+39        <provider
+39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\82c9c14de60ed4332b88f2f7dffd6adb\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+40            android:name="androidx.startup.InitializationProvider"
+40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\82c9c14de60ed4332b88f2f7dffd6adb\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+41            android:authorities="com.example.lembretesrecycler.androidx-startup"
+41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\82c9c14de60ed4332b88f2f7dffd6adb\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+42            android:exported="false" >
+42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\82c9c14de60ed4332b88f2f7dffd6adb\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+43            <meta-data
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\82c9c14de60ed4332b88f2f7dffd6adb\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+44                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\82c9c14de60ed4332b88f2f7dffd6adb\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+45                android:value="androidx.startup" />
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\82c9c14de60ed4332b88f2f7dffd6adb\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+46            <meta-data
+46-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\helvi\.gradle\caches\transforms-3\c9ffce7b077fa143d431c613385b3923\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+47                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+47-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\helvi\.gradle\caches\transforms-3\c9ffce7b077fa143d431c613385b3923\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+48                android:value="androidx.startup" />
+48-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\helvi\.gradle\caches\transforms-3\c9ffce7b077fa143d431c613385b3923\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+49        </provider>
+50    </application>
+51
+52</manifest>

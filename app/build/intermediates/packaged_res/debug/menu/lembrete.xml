@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--
+    Layout de menu, que terá dois itens, um botão de adicionar e outro de info
+
+    app:showAsAction="collapseActionView|ifRoom" irá mostrar o icone
+        se tiver espaço o suficiente e se possível com o título
+    -->
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/action_search"
+        app:showAsAction="collapseActionView|ifRoom"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+
+    <item
+        android:id="@+id/action_config"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/action_config"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_info"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/action_info"
+        app:showAsAction="never"/>
+
+</menu>

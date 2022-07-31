@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:title="@string/title_tamanho_letras"
+        android:key="@string/pref_tamanho_letras"
+        android:entries="@array/tamanhos"
+        android:entryValues="@array/tamanho_values"
+        android:defaultValue="@string/tamanho_default"/>
+
+    <MultiSelectListPreference>
+        <extra
+            android:name="t4t4t3"
+            android:value="r2r23r"/>
+
+
+    </MultiSelectListPreference>
+
+
+</PreferenceScreen>

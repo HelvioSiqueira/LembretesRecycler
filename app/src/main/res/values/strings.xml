@@ -42,4 +42,6 @@
         <item>15sp</item>
 
     </string-array>
+
+    <string name="title_cor_urgente">Mudar cor da prioridade urgente</string>
 </resources>
