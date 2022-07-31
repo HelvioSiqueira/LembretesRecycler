@@ -1,98 +1,98 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:2:1-27:12
-MERGED from [androidx.databinding:viewbinding:7.2.0] C:\Users\helvi\.gradle\caches\transforms-3\702c71cad9d47ac36dca86b4efe50bd3\transformed\viewbinding-7.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.preference:preference:1.2.0] C:\Users\helvi\.gradle\caches\transforms-3\7d18bf339c2b14d29bf7bbc3230f6971\transformed\preference-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\helvi\.gradle\caches\transforms-3\66f4a6c10c7a7daee80efddf73a6ffce\transformed\fragment-ktx-1.3.6\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity-ktx:1.2.2] C:\Users\helvi\.gradle\caches\transforms-3\890eab6330d3402bea0c08d4126f4898\transformed\activity-ktx-1.2.2\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\6a2b502b4b4e34b048b87095ecfcd6aa\transformed\lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\helvi\.gradle\caches\transforms-3\272bef0979a4706057ca999007c431b1\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.window:window:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\ce4907934619d5ea0150f25288c4f865\transformed\window-1.0.0\AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\540d14ba6e004aebf9ea81b1ab956684\transformed\lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.material:material:1.6.0] C:\Users\helvi\.gradle\caches\transforms-3\bd6d0e44f2aa57426d64e02a13067df9\transformed\material-1.6.0\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\1b0f8ee09bcf5c1dcb464e1604dcaa87\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\helvi\.gradle\caches\transforms-3\a1cb19696bfe885c7351d0c11581a2b8\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\helvi\.gradle\caches\transforms-3\d0957bf1891b68e01d1933b8ae8f8e95\transformed\core-ktx-1.7.0\AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\helvi\.gradle\caches\transforms-3\3a03f3b448d1882e2dff3b105f446f58\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\helvi\.gradle\caches\transforms-3\5f7c3c923349d42ca313e04370c06a8c\transformed\appcompat-1.4.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\0279c2dfa08538b6397b7c452f23f153\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\47580ba81a0e1575510b2701085cf27f\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\helvi\.gradle\caches\transforms-3\04544c4f8b1978785696ce054af7643c\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\helvi\.gradle\caches\transforms-3\05229bccf6b34f6b3920a9f185aa9b45\transformed\appcompat-resources-1.4.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\65c86e9a1ba708a69605497f759fe8de\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\69b0920f672f9cb2e9fb13748769be70\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\c8666a6480665724f5d5539c8dc4d89f\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\helvi\.gradle\caches\transforms-3\93e9dc8ff97c5694de49647b54be9650\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.2.4] C:\Users\helvi\.gradle\caches\transforms-3\ab16319e9e6a5a903682bfc7703468ae\transformed\activity-1.2.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\b6d10a83a310ebc943baaa436a6c61f1\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\82c9c14de60ed4332b88f2f7dffd6adb\transformed\emoji2-1.0.0\AndroidManifest.xml:17:1-37:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\ed60e4bcec9d548ca49c0e8cf701a592\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\72363bebac6842aa57152507025f38c5\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.transition:transition:1.4.1] C:\Users\helvi\.gradle\caches\transforms-3\d7536f99e5a5f030aa18eace818c97df\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\7f267100de64bd29b43f89620ca05ad4\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\b34f70a94db6f855fc00e3aacf430508\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.7.0] C:\Users\helvi\.gradle\caches\transforms-3\4825226d7bdc18dc642f18a8a048b277\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\be014ace0f893329344b3de87929ad67\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\d1402084aa329db65aca522a623aed86\transformed\savedstate-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\72f5d20b2fd0ec57a912b440df354332\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\305dd8af9b45f516bdc511698f96906e\transformed\savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\591127c0c49eea2c4de48f04e66caf8f\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\helvi\.gradle\caches\transforms-3\f2416a8f398ec1e28d764f47475f534b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\a13b1b979e651e1d9ca4ed2b9734d5e8\transformed\lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\helvi\.gradle\caches\transforms-3\8899ad9707a115c56ca154fbd3b982f6\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\af71f8f971b7a6964411aa4b58eea92c\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\helvi\.gradle\caches\transforms-3\c9ffce7b077fa143d431c613385b3923\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\helvi\.gradle\caches\transforms-3\97824de471102c5d7d237ab3d02f7546\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\helvi\.gradle\caches\transforms-3\93e782034ed3e009fa83590d337f0ea2\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\ae4534081384b0a1c1273febcc06a6ea\transformed\startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\890c3484499625513d5ecd1135191751\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\35a28353571873618272aaff940a995e\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\da64b280e174979c60b9224c5a3d82ef\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\424999a548111c4541eab4ae2b82d443\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\6f56f1ba082def6824815720dcd6c58c\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\140ec7622853f5231f651809ee8adfd0\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:2:1-30:12
+MERGED from [androidx.databinding:viewbinding:7.2.0] C:\Users\helvi\.gradle\caches\transforms-3\8c30af99f17f9356bbcf830547ec83e4\transformed\viewbinding-7.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.preference:preference:1.2.0] C:\Users\helvi\.gradle\caches\transforms-3\824f73c1972ef0f3f8db575de5bd4879\transformed\preference-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\helvi\.gradle\caches\transforms-3\ff5bf0a48195c9365bed75d1b464393b\transformed\fragment-ktx-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.2.2] C:\Users\helvi\.gradle\caches\transforms-3\9ce67e2b73c465572e5c5f685ec0fd2b\transformed\activity-ktx-1.2.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\af35f3b6963c6bd52f1a2e7d8539220c\transformed\lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\helvi\.gradle\caches\transforms-3\a9945ad830835c7cec63dc7d0e699788\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\6bf8e31ee814563a521356fddb36353a\transformed\window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\5d8d8b9dd9951ead0726e3de70581413\transformed\lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.6.0] C:\Users\helvi\.gradle\caches\transforms-3\dde0d3b0e6b18b84b85660f4dab23270\transformed\material-1.6.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\9d138713eec873d8fb5c081c188eadab\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\helvi\.gradle\caches\transforms-3\5fb507d9ccbada232be5fe4929787c1c\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\helvi\.gradle\caches\transforms-3\a6492f8203ed44adc60743f38b49e4cf\transformed\core-ktx-1.7.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\helvi\.gradle\caches\transforms-3\b983d9bcec043f3f432ab8b4a229bd83\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\helvi\.gradle\caches\transforms-3\7840237e9cd523703ea77802ea9863d3\transformed\appcompat-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\dc542e0f093e7d9c2ce1008c010d290a\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\e61c4f70ddf8ce81c0cb12ba50a42b56\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\helvi\.gradle\caches\transforms-3\ac3c80120190a987520f8fb371c1bd4f\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\helvi\.gradle\caches\transforms-3\ca771ebadfbb6850b4dd5aa9bafe5e54\transformed\appcompat-resources-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\ee350dbd251e8eec6fc96aadd7a73324\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\d5f6e8935c292f7f45854c30d4ca6408\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\41201df282d773b7580d550229a7ea67\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\helvi\.gradle\caches\transforms-3\2283ae34916a94d0dd6454d7eb4074fd\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\helvi\.gradle\caches\transforms-3\e242e05c51fa4650a2a62240d4748af1\transformed\activity-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\181f3a0f9d83eeefe0081f13b154707f\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\285b36096429d634aa032f9c7d3c5a9a\transformed\emoji2-1.0.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\129396ee817706acd322244ed0e1a075\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\bcae7e9fdef0710ed398cee7f0698e2d\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\helvi\.gradle\caches\transforms-3\f0ed5b59dedbe080baa2efe2f3b32ac1\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\fc16637de09d3ea4e98cb49e128c8e83\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\1e26dd4d3d1e0470c1d977c8281232f6\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.7.0] C:\Users\helvi\.gradle\caches\transforms-3\8cbeeae980f8058e235c1e3126073f0b\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\3e6e50244eb87e9ff87a8863a2372181\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\8bbdfffa8a2da6653041926699940772\transformed\savedstate-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\0c6f2bd821a979464cbf97285677dbf6\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\05adca45df16adc3a8e74a5b26e21739\transformed\savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\5c80eafc8deb22a99ade0ed0868fab47\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\helvi\.gradle\caches\transforms-3\3fb37acc9a2049ed097170d85923cd21\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\2a351daa65e2708358c6a16739dbec77\transformed\lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\helvi\.gradle\caches\transforms-3\f58bbf798422a6259567334044e303d4\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\94887f869d38de557c5cf87ee26dc469\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\helvi\.gradle\caches\transforms-3\035b8c6f6691400f89933bf3dba8460e\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\helvi\.gradle\caches\transforms-3\a28f6459ab48493f2913725d4e200b40\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\helvi\.gradle\caches\transforms-3\8cbded74b178bbbe19c1d4a928aa2d69\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\eca4ac0440c57395e6a75e1f15f993c9\transformed\startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\98b9173bd96f802e067934733d7d31cc\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\947eaf4150a0ef6e01acec7cefb4b702\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\07235dcdbc235dc44a299320136f3739\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\72b8f084cae83bef33eea4727f6a3765\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\02c1528fdde7218ffc3fda2d1db505b0\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\9312771a283a953dd698aabf8b4affc5\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:2:1-30:12
 	package
 		ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:4:5-44
 		INJECTED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml
-		ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:2:1-30:12
 		INJECTED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml
-		ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:2:1-30:12
 		INJECTED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:6:5-25:19
-MERGED from [androidx.window:window:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\ce4907934619d5ea0150f25288c4f865\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
-MERGED from [androidx.window:window:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\ce4907934619d5ea0150f25288c4f865\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
-MERGED from [com.google.android.material:material:1.6.0] C:\Users\helvi\.gradle\caches\transforms-3\bd6d0e44f2aa57426d64e02a13067df9\transformed\material-1.6.0\AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.material:material:1.6.0] C:\Users\helvi\.gradle\caches\transforms-3\bd6d0e44f2aa57426d64e02a13067df9\transformed\material-1.6.0\AndroidManifest.xml:24:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\helvi\.gradle\caches\transforms-3\3a03f3b448d1882e2dff3b105f446f58\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\helvi\.gradle\caches\transforms-3\3a03f3b448d1882e2dff3b105f446f58\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
-MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\82c9c14de60ed4332b88f2f7dffd6adb\transformed\emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\82c9c14de60ed4332b88f2f7dffd6adb\transformed\emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.core:core:1.7.0] C:\Users\helvi\.gradle\caches\transforms-3\4825226d7bdc18dc642f18a8a048b277\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.7.0] C:\Users\helvi\.gradle\caches\transforms-3\4825226d7bdc18dc642f18a8a048b277\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\helvi\.gradle\caches\transforms-3\f2416a8f398ec1e28d764f47475f534b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\helvi\.gradle\caches\transforms-3\f2416a8f398ec1e28d764f47475f534b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\helvi\.gradle\caches\transforms-3\c9ffce7b077fa143d431c613385b3923\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\helvi\.gradle\caches\transforms-3\c9ffce7b077fa143d431c613385b3923\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\ae4534081384b0a1c1273febcc06a6ea\transformed\startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\ae4534081384b0a1c1273febcc06a6ea\transformed\startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:6:5-28:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\6bf8e31ee814563a521356fddb36353a\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\6bf8e31ee814563a521356fddb36353a\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.android.material:material:1.6.0] C:\Users\helvi\.gradle\caches\transforms-3\dde0d3b0e6b18b84b85660f4dab23270\transformed\material-1.6.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.6.0] C:\Users\helvi\.gradle\caches\transforms-3\dde0d3b0e6b18b84b85660f4dab23270\transformed\material-1.6.0\AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\helvi\.gradle\caches\transforms-3\b983d9bcec043f3f432ab8b4a229bd83\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\helvi\.gradle\caches\transforms-3\b983d9bcec043f3f432ab8b4a229bd83\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\285b36096429d634aa032f9c7d3c5a9a\transformed\emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\285b36096429d634aa032f9c7d3c5a9a\transformed\emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] C:\Users\helvi\.gradle\caches\transforms-3\8cbeeae980f8058e235c1e3126073f0b\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] C:\Users\helvi\.gradle\caches\transforms-3\8cbeeae980f8058e235c1e3126073f0b\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\helvi\.gradle\caches\transforms-3\3fb37acc9a2049ed097170d85923cd21\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\helvi\.gradle\caches\transforms-3\3fb37acc9a2049ed097170d85923cd21\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\helvi\.gradle\caches\transforms-3\035b8c6f6691400f89933bf3dba8460e\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\helvi\.gradle\caches\transforms-3\035b8c6f6691400f89933bf3dba8460e\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\eca4ac0440c57395e6a75e1f15f993c9\transformed\startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\eca4ac0440c57395e6a75e1f15f993c9\transformed\startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.7.0] C:\Users\helvi\.gradle\caches\transforms-3\4825226d7bdc18dc642f18a8a048b277\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.7.0] C:\Users\helvi\.gradle\caches\transforms-3\8cbeeae980f8058e235c1e3126073f0b\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
 		ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
@@ -111,126 +111,132 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\helvi\.gradle\cach
 		ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:14:9-55
 	android:dataExtractionRules
 		ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:8:9-65
-activity#com.example.lembretesrecycler.MainActivity
-ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:16:9-24:20
+activity#com.example.lembretesrecycler.ConfigActivity
+ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:16:9-18:40
 	android:exported
-		ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:18:13-36
+		ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:18:13-37
 	android:name
-		ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:17:13-41
+		ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:17:13-43
+activity#com.example.lembretesrecycler.MainActivity
+ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:19:9-27:20
+	android:exported
+		ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:21:13-36
+	android:name
+		ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:20:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:19:13-23:29
+ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:20:17-69
+ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:22:17-77
+ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:22:27-74
+		ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml:25:27-74
 uses-sdk
 INJECTED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml
 INJECTED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml
-MERGED from [androidx.databinding:viewbinding:7.2.0] C:\Users\helvi\.gradle\caches\transforms-3\702c71cad9d47ac36dca86b4efe50bd3\transformed\viewbinding-7.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.databinding:viewbinding:7.2.0] C:\Users\helvi\.gradle\caches\transforms-3\702c71cad9d47ac36dca86b4efe50bd3\transformed\viewbinding-7.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.preference:preference:1.2.0] C:\Users\helvi\.gradle\caches\transforms-3\7d18bf339c2b14d29bf7bbc3230f6971\transformed\preference-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.preference:preference:1.2.0] C:\Users\helvi\.gradle\caches\transforms-3\7d18bf339c2b14d29bf7bbc3230f6971\transformed\preference-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\helvi\.gradle\caches\transforms-3\66f4a6c10c7a7daee80efddf73a6ffce\transformed\fragment-ktx-1.3.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\helvi\.gradle\caches\transforms-3\66f4a6c10c7a7daee80efddf73a6ffce\transformed\fragment-ktx-1.3.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity-ktx:1.2.2] C:\Users\helvi\.gradle\caches\transforms-3\890eab6330d3402bea0c08d4126f4898\transformed\activity-ktx-1.2.2\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity-ktx:1.2.2] C:\Users\helvi\.gradle\caches\transforms-3\890eab6330d3402bea0c08d4126f4898\transformed\activity-ktx-1.2.2\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\6a2b502b4b4e34b048b87095ecfcd6aa\transformed\lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\6a2b502b4b4e34b048b87095ecfcd6aa\transformed\lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\helvi\.gradle\caches\transforms-3\272bef0979a4706057ca999007c431b1\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\helvi\.gradle\caches\transforms-3\272bef0979a4706057ca999007c431b1\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window:window:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\ce4907934619d5ea0150f25288c4f865\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window:window:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\ce4907934619d5ea0150f25288c4f865\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\540d14ba6e004aebf9ea81b1ab956684\transformed\lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\540d14ba6e004aebf9ea81b1ab956684\transformed\lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.6.0] C:\Users\helvi\.gradle\caches\transforms-3\bd6d0e44f2aa57426d64e02a13067df9\transformed\material-1.6.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.6.0] C:\Users\helvi\.gradle\caches\transforms-3\bd6d0e44f2aa57426d64e02a13067df9\transformed\material-1.6.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\1b0f8ee09bcf5c1dcb464e1604dcaa87\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\1b0f8ee09bcf5c1dcb464e1604dcaa87\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\helvi\.gradle\caches\transforms-3\a1cb19696bfe885c7351d0c11581a2b8\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\helvi\.gradle\caches\transforms-3\a1cb19696bfe885c7351d0c11581a2b8\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\helvi\.gradle\caches\transforms-3\d0957bf1891b68e01d1933b8ae8f8e95\transformed\core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\helvi\.gradle\caches\transforms-3\d0957bf1891b68e01d1933b8ae8f8e95\transformed\core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\helvi\.gradle\caches\transforms-3\3a03f3b448d1882e2dff3b105f446f58\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\helvi\.gradle\caches\transforms-3\3a03f3b448d1882e2dff3b105f446f58\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\helvi\.gradle\caches\transforms-3\5f7c3c923349d42ca313e04370c06a8c\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\helvi\.gradle\caches\transforms-3\5f7c3c923349d42ca313e04370c06a8c\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\0279c2dfa08538b6397b7c452f23f153\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\0279c2dfa08538b6397b7c452f23f153\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\47580ba81a0e1575510b2701085cf27f\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\47580ba81a0e1575510b2701085cf27f\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\helvi\.gradle\caches\transforms-3\04544c4f8b1978785696ce054af7643c\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\helvi\.gradle\caches\transforms-3\04544c4f8b1978785696ce054af7643c\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\helvi\.gradle\caches\transforms-3\05229bccf6b34f6b3920a9f185aa9b45\transformed\appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\helvi\.gradle\caches\transforms-3\05229bccf6b34f6b3920a9f185aa9b45\transformed\appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\65c86e9a1ba708a69605497f759fe8de\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\65c86e9a1ba708a69605497f759fe8de\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\69b0920f672f9cb2e9fb13748769be70\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\69b0920f672f9cb2e9fb13748769be70\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\c8666a6480665724f5d5539c8dc4d89f\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\c8666a6480665724f5d5539c8dc4d89f\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\helvi\.gradle\caches\transforms-3\93e9dc8ff97c5694de49647b54be9650\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\helvi\.gradle\caches\transforms-3\93e9dc8ff97c5694de49647b54be9650\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.4] C:\Users\helvi\.gradle\caches\transforms-3\ab16319e9e6a5a903682bfc7703468ae\transformed\activity-1.2.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.4] C:\Users\helvi\.gradle\caches\transforms-3\ab16319e9e6a5a903682bfc7703468ae\transformed\activity-1.2.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\b6d10a83a310ebc943baaa436a6c61f1\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\b6d10a83a310ebc943baaa436a6c61f1\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\82c9c14de60ed4332b88f2f7dffd6adb\transformed\emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\82c9c14de60ed4332b88f2f7dffd6adb\transformed\emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\ed60e4bcec9d548ca49c0e8cf701a592\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\ed60e4bcec9d548ca49c0e8cf701a592\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\72363bebac6842aa57152507025f38c5\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\72363bebac6842aa57152507025f38c5\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.4.1] C:\Users\helvi\.gradle\caches\transforms-3\d7536f99e5a5f030aa18eace818c97df\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.4.1] C:\Users\helvi\.gradle\caches\transforms-3\d7536f99e5a5f030aa18eace818c97df\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\7f267100de64bd29b43f89620ca05ad4\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\7f267100de64bd29b43f89620ca05ad4\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\b34f70a94db6f855fc00e3aacf430508\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\b34f70a94db6f855fc00e3aacf430508\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.7.0] C:\Users\helvi\.gradle\caches\transforms-3\4825226d7bdc18dc642f18a8a048b277\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.7.0] C:\Users\helvi\.gradle\caches\transforms-3\4825226d7bdc18dc642f18a8a048b277\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\be014ace0f893329344b3de87929ad67\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\be014ace0f893329344b3de87929ad67\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\d1402084aa329db65aca522a623aed86\transformed\savedstate-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\d1402084aa329db65aca522a623aed86\transformed\savedstate-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\72f5d20b2fd0ec57a912b440df354332\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\72f5d20b2fd0ec57a912b440df354332\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\305dd8af9b45f516bdc511698f96906e\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\305dd8af9b45f516bdc511698f96906e\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\591127c0c49eea2c4de48f04e66caf8f\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\591127c0c49eea2c4de48f04e66caf8f\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\helvi\.gradle\caches\transforms-3\f2416a8f398ec1e28d764f47475f534b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\helvi\.gradle\caches\transforms-3\f2416a8f398ec1e28d764f47475f534b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\a13b1b979e651e1d9ca4ed2b9734d5e8\transformed\lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\a13b1b979e651e1d9ca4ed2b9734d5e8\transformed\lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\helvi\.gradle\caches\transforms-3\8899ad9707a115c56ca154fbd3b982f6\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\helvi\.gradle\caches\transforms-3\8899ad9707a115c56ca154fbd3b982f6\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\af71f8f971b7a6964411aa4b58eea92c\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\af71f8f971b7a6964411aa4b58eea92c\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\helvi\.gradle\caches\transforms-3\c9ffce7b077fa143d431c613385b3923\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\helvi\.gradle\caches\transforms-3\c9ffce7b077fa143d431c613385b3923\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\helvi\.gradle\caches\transforms-3\97824de471102c5d7d237ab3d02f7546\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\helvi\.gradle\caches\transforms-3\97824de471102c5d7d237ab3d02f7546\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\helvi\.gradle\caches\transforms-3\93e782034ed3e009fa83590d337f0ea2\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\helvi\.gradle\caches\transforms-3\93e782034ed3e009fa83590d337f0ea2\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\ae4534081384b0a1c1273febcc06a6ea\transformed\startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\ae4534081384b0a1c1273febcc06a6ea\transformed\startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\890c3484499625513d5ecd1135191751\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\890c3484499625513d5ecd1135191751\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\35a28353571873618272aaff940a995e\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\35a28353571873618272aaff940a995e\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\da64b280e174979c60b9224c5a3d82ef\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\da64b280e174979c60b9224c5a3d82ef\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\424999a548111c4541eab4ae2b82d443\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\424999a548111c4541eab4ae2b82d443\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\6f56f1ba082def6824815720dcd6c58c\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\6f56f1ba082def6824815720dcd6c58c\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\140ec7622853f5231f651809ee8adfd0\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\140ec7622853f5231f651809ee8adfd0\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.2.0] C:\Users\helvi\.gradle\caches\transforms-3\8c30af99f17f9356bbcf830547ec83e4\transformed\viewbinding-7.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.2.0] C:\Users\helvi\.gradle\caches\transforms-3\8c30af99f17f9356bbcf830547ec83e4\transformed\viewbinding-7.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.0] C:\Users\helvi\.gradle\caches\transforms-3\824f73c1972ef0f3f8db575de5bd4879\transformed\preference-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.0] C:\Users\helvi\.gradle\caches\transforms-3\824f73c1972ef0f3f8db575de5bd4879\transformed\preference-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\helvi\.gradle\caches\transforms-3\ff5bf0a48195c9365bed75d1b464393b\transformed\fragment-ktx-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\helvi\.gradle\caches\transforms-3\ff5bf0a48195c9365bed75d1b464393b\transformed\fragment-ktx-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.2] C:\Users\helvi\.gradle\caches\transforms-3\9ce67e2b73c465572e5c5f685ec0fd2b\transformed\activity-ktx-1.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.2] C:\Users\helvi\.gradle\caches\transforms-3\9ce67e2b73c465572e5c5f685ec0fd2b\transformed\activity-ktx-1.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\af35f3b6963c6bd52f1a2e7d8539220c\transformed\lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\af35f3b6963c6bd52f1a2e7d8539220c\transformed\lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\helvi\.gradle\caches\transforms-3\a9945ad830835c7cec63dc7d0e699788\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\helvi\.gradle\caches\transforms-3\a9945ad830835c7cec63dc7d0e699788\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\6bf8e31ee814563a521356fddb36353a\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\6bf8e31ee814563a521356fddb36353a\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\5d8d8b9dd9951ead0726e3de70581413\transformed\lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\5d8d8b9dd9951ead0726e3de70581413\transformed\lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.6.0] C:\Users\helvi\.gradle\caches\transforms-3\dde0d3b0e6b18b84b85660f4dab23270\transformed\material-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.6.0] C:\Users\helvi\.gradle\caches\transforms-3\dde0d3b0e6b18b84b85660f4dab23270\transformed\material-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\9d138713eec873d8fb5c081c188eadab\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\9d138713eec873d8fb5c081c188eadab\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\helvi\.gradle\caches\transforms-3\5fb507d9ccbada232be5fe4929787c1c\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\helvi\.gradle\caches\transforms-3\5fb507d9ccbada232be5fe4929787c1c\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\helvi\.gradle\caches\transforms-3\a6492f8203ed44adc60743f38b49e4cf\transformed\core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\helvi\.gradle\caches\transforms-3\a6492f8203ed44adc60743f38b49e4cf\transformed\core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\helvi\.gradle\caches\transforms-3\b983d9bcec043f3f432ab8b4a229bd83\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\helvi\.gradle\caches\transforms-3\b983d9bcec043f3f432ab8b4a229bd83\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\helvi\.gradle\caches\transforms-3\7840237e9cd523703ea77802ea9863d3\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\helvi\.gradle\caches\transforms-3\7840237e9cd523703ea77802ea9863d3\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\dc542e0f093e7d9c2ce1008c010d290a\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\dc542e0f093e7d9c2ce1008c010d290a\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\e61c4f70ddf8ce81c0cb12ba50a42b56\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\e61c4f70ddf8ce81c0cb12ba50a42b56\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\helvi\.gradle\caches\transforms-3\ac3c80120190a987520f8fb371c1bd4f\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\helvi\.gradle\caches\transforms-3\ac3c80120190a987520f8fb371c1bd4f\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\helvi\.gradle\caches\transforms-3\ca771ebadfbb6850b4dd5aa9bafe5e54\transformed\appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\helvi\.gradle\caches\transforms-3\ca771ebadfbb6850b4dd5aa9bafe5e54\transformed\appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\ee350dbd251e8eec6fc96aadd7a73324\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\ee350dbd251e8eec6fc96aadd7a73324\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\d5f6e8935c292f7f45854c30d4ca6408\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\d5f6e8935c292f7f45854c30d4ca6408\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\41201df282d773b7580d550229a7ea67\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\41201df282d773b7580d550229a7ea67\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\helvi\.gradle\caches\transforms-3\2283ae34916a94d0dd6454d7eb4074fd\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\helvi\.gradle\caches\transforms-3\2283ae34916a94d0dd6454d7eb4074fd\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\helvi\.gradle\caches\transforms-3\e242e05c51fa4650a2a62240d4748af1\transformed\activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\helvi\.gradle\caches\transforms-3\e242e05c51fa4650a2a62240d4748af1\transformed\activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\181f3a0f9d83eeefe0081f13b154707f\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\181f3a0f9d83eeefe0081f13b154707f\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\285b36096429d634aa032f9c7d3c5a9a\transformed\emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\285b36096429d634aa032f9c7d3c5a9a\transformed\emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\129396ee817706acd322244ed0e1a075\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\129396ee817706acd322244ed0e1a075\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\bcae7e9fdef0710ed398cee7f0698e2d\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\bcae7e9fdef0710ed398cee7f0698e2d\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\helvi\.gradle\caches\transforms-3\f0ed5b59dedbe080baa2efe2f3b32ac1\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\helvi\.gradle\caches\transforms-3\f0ed5b59dedbe080baa2efe2f3b32ac1\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\fc16637de09d3ea4e98cb49e128c8e83\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\fc16637de09d3ea4e98cb49e128c8e83\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\1e26dd4d3d1e0470c1d977c8281232f6\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\1e26dd4d3d1e0470c1d977c8281232f6\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.7.0] C:\Users\helvi\.gradle\caches\transforms-3\8cbeeae980f8058e235c1e3126073f0b\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\helvi\.gradle\caches\transforms-3\8cbeeae980f8058e235c1e3126073f0b\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\3e6e50244eb87e9ff87a8863a2372181\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\3e6e50244eb87e9ff87a8863a2372181\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\8bbdfffa8a2da6653041926699940772\transformed\savedstate-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\8bbdfffa8a2da6653041926699940772\transformed\savedstate-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\0c6f2bd821a979464cbf97285677dbf6\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\0c6f2bd821a979464cbf97285677dbf6\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\05adca45df16adc3a8e74a5b26e21739\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\05adca45df16adc3a8e74a5b26e21739\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\5c80eafc8deb22a99ade0ed0868fab47\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\5c80eafc8deb22a99ade0ed0868fab47\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\helvi\.gradle\caches\transforms-3\3fb37acc9a2049ed097170d85923cd21\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\helvi\.gradle\caches\transforms-3\3fb37acc9a2049ed097170d85923cd21\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\2a351daa65e2708358c6a16739dbec77\transformed\lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\2a351daa65e2708358c6a16739dbec77\transformed\lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\helvi\.gradle\caches\transforms-3\f58bbf798422a6259567334044e303d4\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\helvi\.gradle\caches\transforms-3\f58bbf798422a6259567334044e303d4\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\94887f869d38de557c5cf87ee26dc469\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\helvi\.gradle\caches\transforms-3\94887f869d38de557c5cf87ee26dc469\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\helvi\.gradle\caches\transforms-3\035b8c6f6691400f89933bf3dba8460e\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\helvi\.gradle\caches\transforms-3\035b8c6f6691400f89933bf3dba8460e\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\helvi\.gradle\caches\transforms-3\a28f6459ab48493f2913725d4e200b40\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\helvi\.gradle\caches\transforms-3\a28f6459ab48493f2913725d4e200b40\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\helvi\.gradle\caches\transforms-3\8cbded74b178bbbe19c1d4a928aa2d69\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\helvi\.gradle\caches\transforms-3\8cbded74b178bbbe19c1d4a928aa2d69\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\eca4ac0440c57395e6a75e1f15f993c9\transformed\startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\eca4ac0440c57395e6a75e1f15f993c9\transformed\startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\98b9173bd96f802e067934733d7d31cc\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\98b9173bd96f802e067934733d7d31cc\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\947eaf4150a0ef6e01acec7cefb4b702\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\947eaf4150a0ef6e01acec7cefb4b702\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\07235dcdbc235dc44a299320136f3739\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\07235dcdbc235dc44a299320136f3739\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\72b8f084cae83bef33eea4727f6a3765\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\72b8f084cae83bef33eea4727f6a3765\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\02c1528fdde7218ffc3fda2d1db505b0\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\02c1528fdde7218ffc3fda2d1db505b0\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\9312771a283a953dd698aabf8b4affc5\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\helvi\.gradle\caches\transforms-3\9312771a283a953dd698aabf8b4affc5\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 INJECTED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml
 INJECTED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -242,40 +248,40 @@ INJECTED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\ap
 		ADDED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\AndroidManifest.xml
 uses-library#androidx.window.extensions
-ADDED from [androidx.window:window:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\ce4907934619d5ea0150f25288c4f865\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+ADDED from [androidx.window:window:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\6bf8e31ee814563a521356fddb36353a\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
 	android:required
-		ADDED from [androidx.window:window:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\ce4907934619d5ea0150f25288c4f865\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+		ADDED from [androidx.window:window:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\6bf8e31ee814563a521356fddb36353a\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from [androidx.window:window:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\ce4907934619d5ea0150f25288c4f865\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+		ADDED from [androidx.window:window:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\6bf8e31ee814563a521356fddb36353a\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
 uses-library#androidx.window.sidecar
-ADDED from [androidx.window:window:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\ce4907934619d5ea0150f25288c4f865\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+ADDED from [androidx.window:window:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\6bf8e31ee814563a521356fddb36353a\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
 	android:required
-		ADDED from [androidx.window:window:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\ce4907934619d5ea0150f25288c4f865\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+		ADDED from [androidx.window:window:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\6bf8e31ee814563a521356fddb36353a\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from [androidx.window:window:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\ce4907934619d5ea0150f25288c4f865\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+		ADDED from [androidx.window:window:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\6bf8e31ee814563a521356fddb36353a\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
 provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\82c9c14de60ed4332b88f2f7dffd6adb\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\helvi\.gradle\caches\transforms-3\c9ffce7b077fa143d431c613385b3923\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\helvi\.gradle\caches\transforms-3\c9ffce7b077fa143d431c613385b3923\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\ae4534081384b0a1c1273febcc06a6ea\transformed\startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\ae4534081384b0a1c1273febcc06a6ea\transformed\startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\285b36096429d634aa032f9c7d3c5a9a\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\helvi\.gradle\caches\transforms-3\035b8c6f6691400f89933bf3dba8460e\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\helvi\.gradle\caches\transforms-3\035b8c6f6691400f89933bf3dba8460e\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\eca4ac0440c57395e6a75e1f15f993c9\transformed\startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\eca4ac0440c57395e6a75e1f15f993c9\transformed\startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
 	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\82c9c14de60ed4332b88f2f7dffd6adb\transformed\emoji2-1.0.0\AndroidManifest.xml:30:13-31
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\285b36096429d634aa032f9c7d3c5a9a\transformed\emoji2-1.0.0\AndroidManifest.xml:30:13-31
 	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\82c9c14de60ed4332b88f2f7dffd6adb\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\285b36096429d634aa032f9c7d3c5a9a\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\82c9c14de60ed4332b88f2f7dffd6adb\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\285b36096429d634aa032f9c7d3c5a9a\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\82c9c14de60ed4332b88f2f7dffd6adb\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\285b36096429d634aa032f9c7d3c5a9a\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
 meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\82c9c14de60ed4332b88f2f7dffd6adb\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\285b36096429d634aa032f9c7d3c5a9a\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
 	android:value
-		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\82c9c14de60ed4332b88f2f7dffd6adb\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\285b36096429d634aa032f9c7d3c5a9a\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\82c9c14de60ed4332b88f2f7dffd6adb\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\helvi\.gradle\caches\transforms-3\285b36096429d634aa032f9c7d3c5a9a\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\helvi\.gradle\caches\transforms-3\c9ffce7b077fa143d431c613385b3923\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\helvi\.gradle\caches\transforms-3\035b8c6f6691400f89933bf3dba8460e\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
 	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\helvi\.gradle\caches\transforms-3\c9ffce7b077fa143d431c613385b3923\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\helvi\.gradle\caches\transforms-3\035b8c6f6691400f89933bf3dba8460e\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\helvi\.gradle\caches\transforms-3\c9ffce7b077fa143d431c613385b3923\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\helvi\.gradle\caches\transforms-3\035b8c6f6691400f89933bf3dba8460e\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78

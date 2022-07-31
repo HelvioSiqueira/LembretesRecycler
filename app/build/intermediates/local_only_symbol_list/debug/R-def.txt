@@ -27,12 +27,15 @@ id action_search
 id btnSeta
 id card
 id card_oculto
+id cor
 id dataAdd
 id edtText
 id edtTitle
 id fadAdd
+id fragmentConfig
 id fragmentList
 id icone
+id nome_cor
 id rvLembretes
 id scrollView
 id spnPrioridades
@@ -41,6 +44,7 @@ id tilText
 id tilTitle
 id txtTexto
 id txtTitulo
+layout activity_config
 layout activity_main
 layout fragment_lembrete_form
 layout item_cor
@@ -67,6 +71,8 @@ string message_lembrete_deleted
 string pref_tamanho_letras
 string tamanho_default
 string text_add
+string title_cat1
+string title_cor_urgente
 string title_tamanho_letras
 string undo
 style Theme.LembretesRecycler

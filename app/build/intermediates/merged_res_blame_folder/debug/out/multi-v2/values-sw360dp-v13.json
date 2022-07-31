@@ -4,7 +4,7 @@
             "outputFile": "com.example.lembretesrecycler.app-mergeDebugResources-27:/values-sw360dp-v13/values-sw360dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\helvi\\.gradle\\caches\\transforms-3\\7d18bf339c2b14d29bf7bbc3230f6971\\transformed\\preference-1.2.0\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "source": "C:\\Users\\helvi\\.gradle\\caches\\transforms-3\\824f73c1972ef0f3f8db575de5bd4879\\transformed\\preference-1.2.0\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,5 +1,6 @@
 package com.example.lembretesrecycler
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
@@ -60,6 +61,9 @@ class MainActivity :
         when (item.itemId) {
             R.id.action_info ->
                 AboutDialogFragment().show(supportFragmentManager, "sobre")
+
+            R.id.action_config ->
+                startActivity(Intent(this, ConfigActivity::class.java))
         }
 
         return super.onOptionsItemSelected(item)

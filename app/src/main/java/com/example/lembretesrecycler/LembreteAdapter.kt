@@ -15,8 +15,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.lembretesrecycler.fragments.LembreteListFragment
 import kotlinx.android.synthetic.main.item_lembrete.view.*
 
-//TESTANDO
-
 //A classe LembreteAdapter necessita de uma subclasse do tipo RecyclerView.Adapter que deve ser do
 //tipo VH(ViewHolder)
 

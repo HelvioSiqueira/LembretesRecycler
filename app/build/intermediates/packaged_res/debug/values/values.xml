@@ -45,6 +45,8 @@
     <string name="pref_tamanho_letras">tamanho_letras</string>
     <string name="tamanho_default"/>
     <string name="text_add">Adicionar Lembrete</string>
+    <string name="title_cat1">Cat 1</string>
+    <string name="title_cor_urgente">Mudar cor da prioridade urgente</string>
     <string name="title_tamanho_letras">Tamanho da fonte</string>
     <string name="undo">Desfazer</string>
     <style name="Theme.LembretesRecycler" parent="Theme.MaterialComponents.DayNight.DarkActionBar">

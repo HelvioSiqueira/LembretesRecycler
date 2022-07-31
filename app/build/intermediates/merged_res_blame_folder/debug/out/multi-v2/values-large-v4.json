@@ -4,7 +4,7 @@
             "outputFile": "com.example.lembretesrecycler.app-mergeDebugResources-27:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\helvi\\.gradle\\caches\\transforms-3\\bd6d0e44f2aa57426d64e02a13067df9\\transformed\\material-1.6.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\helvi\\.gradle\\caches\\transforms-3\\dde0d3b0e6b18b84b85660f4dab23270\\transformed\\material-1.6.0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,10",
                         "startColumns": "4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\helvi\\.gradle\\caches\\transforms-3\\5f7c3c923349d42ca313e04370c06a8c\\transformed\\appcompat-1.4.1\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\helvi\\.gradle\\caches\\transforms-3\\7840237e9cd523703ea77802ea9863d3\\transformed\\appcompat-1.4.1\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
