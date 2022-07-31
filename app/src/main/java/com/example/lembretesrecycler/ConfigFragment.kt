@@ -3,6 +3,8 @@ package com.example.lembretesrecycler
 import android.os.Bundle
 import androidx.preference.*
 
+//Teste
+
 class ConfigFragment: PreferenceFragmentCompat(), Preference.OnPreferenceChangeListener {
 
     private lateinit var listPrefTamanho: ListPreference
