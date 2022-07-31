@@ -43,7 +43,7 @@
     <string name="hint_title">Título</string>
     <string name="message_lembrete_deleted">Lembrete Excluido</string>
     <string name="pref_tamanho_letras">tamanho_letras</string>
-    <string name="tamanho_default"/>
+    <string name="tamanho_default">Normal</string>
     <string name="text_add">Adicionar Lembrete</string>
     <string name="title_cat1">Cat 1</string>
     <string name="title_cor_urgente">Mudar cor da prioridade urgente</string>
