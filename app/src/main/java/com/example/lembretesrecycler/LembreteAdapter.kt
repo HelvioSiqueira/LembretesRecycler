@@ -1,5 +1,6 @@
 package com.example.lembretesrecycler
 
+import android.content.Context
 import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.View
@@ -11,6 +12,7 @@ import android.transition.TransitionManager
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.annotation.RequiresApi
+import androidx.preference.PreferenceManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.lembretesrecycler.fragments.LembreteListFragment
 import kotlinx.android.synthetic.main.item_lembrete.view.*
@@ -19,10 +21,13 @@ import kotlinx.android.synthetic.main.item_lembrete.view.*
 //tipo VH(ViewHolder)
 
 //Uso o ctx para poder ter acesso aos arquivo de layout array
-class LembreteAdapter(private val lembretes: List<Lembrete>, private val ctx: LembreteListFragment) : RecyclerView.Adapter<LembreteAdapter.VH>(){
+class LembreteAdapter(
+    private val lembretes: List<Lembrete>,
+    private val ctx: LembreteListFragment
+) : RecyclerView.Adapter<LembreteAdapter.VH>() {
 
     //Objeto TypedArray que só será iniciado quando for usado a primeira vez
-    private val icones: TypedArray by lazy{
+    private val icones: TypedArray by lazy {
         ctx.resources.obtainTypedArray(R.array.icones)
     }
 
@@ -35,8 +40,8 @@ class LembreteAdapter(private val lembretes: List<Lembrete>, private val ctx: Le
 
         val vh = VH(v)
 
-        vh.itemView.btnSeta.setOnClickListener{
-            if(vh.itemView.card_oculto.visibility == View.VISIBLE){
+        vh.itemView.btnSeta.setOnClickListener {
+            if (vh.itemView.card_oculto.visibility == View.VISIBLE) {
 
                 vh.itemView.btnSeta.setImageResource(R.drawable.ic_baseline_expand_more_24)
 
@@ -58,7 +63,7 @@ class LembreteAdapter(private val lembretes: List<Lembrete>, private val ctx: Le
     }
 
     //Preenche-se o ViewHolder com as informações do objeto
-    override fun onBindViewHolder(holder: VH, pos: Int){
+    override fun onBindViewHolder(holder: VH, pos: Int) {
         val (titulo, texto, prioridade, data) = lembretes[pos]
 
         holder.txtTitle.text = titulo
@@ -79,7 +84,7 @@ class LembreteAdapter(private val lembretes: List<Lembrete>, private val ctx: Le
     override fun getItemCount(): Int = lembretes.size
 
     //Criado a classe do tipo ViewHolder para ser retornada
-    class VH(itemView: View) : RecyclerView.ViewHolder(itemView){
+    class VH(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val txtTitle: TextView = itemView.txtTitulo
         val txtText: TextView = itemView.txtTexto
         val icone: ImageView = itemView.icone
@@ -97,13 +102,14 @@ class LembreteAdapter(private val lembretes: List<Lembrete>, private val ctx: Le
     }
 
     //Transforma a prioridade em um inteiro para usa-lo no obtainTypedArray
-    private fun numPrioridade(prioridade: String): Int{
-        val ic = when(prioridade){
+    private fun numPrioridade(prioridade: String): Int {
+        val ic = when (prioridade) {
             "Urgente" -> 0
             "Importante" -> 1
             "Flexivel" -> 2
             else -> 3
         }
-        return  ic
+        return ic
     }
+
 }

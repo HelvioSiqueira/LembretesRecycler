@@ -12,9 +12,9 @@
         <item>Pequeno</item>
 
     </string-array><string-array name="tamanho_values">
-        <item>30sp</item>
-        <item>20sp</item>
-        <item>15sp</item>
+        <item>30</item>
+        <item>20</item>
+        <item>15</item>
 
     </string-array><string name="title_cor_urgente">Mudar cor da prioridade urgente</string><string name="title_cat1">Cat 1</string></file><file path="D:\Helvio\AndroidStudio\AndroidStudioProjects\LembretesRecycler\app\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.LembretesRecycler" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         

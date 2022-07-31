@@ -9,9 +9,9 @@
 
     </array>
     <string-array name="tamanho_values">
-        <item>30sp</item>
-        <item>20sp</item>
-        <item>15sp</item>
+        <item>30</item>
+        <item>20</item>
+        <item>15</item>
 
     </string-array>
     <string-array name="tamanhos">

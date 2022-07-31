@@ -2,7 +2,6 @@ package com.example.lembretesrecycler.fragments
 
 import android.annotation.SuppressLint
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -17,6 +16,7 @@ import com.example.lembretesrecycler.presenters.LembretesPresenter
 import com.example.lembretesrecycler.repositorys.MemoryRepository
 import com.example.lembretesrecycler.views.MainView
 import com.google.android.material.snackbar.Snackbar
+import kotlinx.android.synthetic.main.item_lembrete.*
 import kotlinx.android.synthetic.main.lembrete_list.*
 
 class LembreteListFragment : Fragment(), MainView {
@@ -49,6 +49,7 @@ class LembreteListFragment : Fragment(), MainView {
         presenter.searchLembretes("")
 
         initSwipeGesture()
+
     }
 
     //Inicia o RecycleView como um LinearLayout
@@ -93,8 +94,6 @@ class LembreteListFragment : Fragment(), MainView {
             override fun onSwiped(viewHolder: RecyclerView.ViewHolder, direction: Int) {
                 val position = viewHolder.absoluteAdapterPosition
 
-                //Log.i("HSV", "${adapter}")
-
                 presenter.excluirLembrete(position, term)
 
                 adapter.notifyItemRemoved(position)
@@ -111,7 +110,6 @@ class LembreteListFragment : Fragment(), MainView {
     }
 
     override fun showLembretes(lembretes: List<Lembrete>) {
-
         adapter = LembreteAdapter(lembretes, this)
         initRecyclerView(adapter)
     }
