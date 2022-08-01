@@ -43,16 +43,6 @@ object MemoryRepository : LembretesRepository {
         Collections.swap(lembretes, from, to)
     }
 
-    override fun busca(lembrete: Lembrete): Boolean {
-        var achou = false
-
-        lembretes.forEach {
-            achou = it.titulo == lembrete.titulo
-        }
-
-        return achou
-    }
-
     override fun obterLembretes(): List<Lembrete> {
         return lembretes
     }

@@ -16,7 +16,6 @@ import com.example.lembretesrecycler.presenters.LembretesPresenter
 import com.example.lembretesrecycler.repositorys.MemoryRepository
 import com.example.lembretesrecycler.views.MainView
 import com.google.android.material.snackbar.Snackbar
-import kotlinx.android.synthetic.main.item_lembrete.*
 import kotlinx.android.synthetic.main.lembrete_list.*
 
 class LembreteListFragment : Fragment(), MainView {
