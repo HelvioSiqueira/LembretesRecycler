@@ -12,10 +12,6 @@
         "source": "C:\\Users\\helvi\\.gradle\\daemon\\7.3.3\\com.example.lembretesrecycler.app-main-31:\\drawable\\ic_atencao.xml"
     },
     {
-        "merged": "com.example.lembretesrecycler.app-merged_res-29:/layout_item_lembrete.xml.flat",
-        "source": "com.example.lembretesrecycler.app-main-31:/layout/item_lembrete.xml"
-    },
-    {
         "merged": "C:\\Users\\helvi\\.gradle\\daemon\\7.3.3\\com.example.lembretesrecycler.app-merged_res-29:\\drawable-xhdpi_ic_pin.png.flat",
         "source": "C:\\Users\\helvi\\.gradle\\daemon\\7.3.3\\com.example.lembretesrecycler.app-pngs-24:\\drawable-xhdpi\\ic_pin.png"
     },
@@ -116,12 +112,16 @@
         "source": "C:\\Users\\helvi\\.gradle\\daemon\\7.3.3\\com.example.lembretesrecycler.app-pngs-24:\\drawable-ldpi\\ic_pin.png"
     },
     {
-        "merged": "C:\\Users\\helvi\\.gradle\\daemon\\7.3.3\\com.example.lembretesrecycler.app-merged_res-29:\\drawable_ic_settings.xml.flat",
-        "source": "C:\\Users\\helvi\\.gradle\\daemon\\7.3.3\\com.example.lembretesrecycler.app-main-31:\\drawable\\ic_settings.xml"
+        "merged": "com.example.lembretesrecycler.app-merged_res-29:/layout_activity_config.xml.flat",
+        "source": "com.example.lembretesrecycler.app-main-31:/layout/activity_config.xml"
     },
     {
         "merged": "C:\\Users\\helvi\\.gradle\\daemon\\7.3.3\\com.example.lembretesrecycler.app-merged_res-29:\\layout_item_lembrete.xml.flat",
         "source": "C:\\Users\\helvi\\.gradle\\daemon\\7.3.3\\com.example.lembretesrecycler.app-main-31:\\layout\\item_lembrete.xml"
+    },
+    {
+        "merged": "C:\\Users\\helvi\\.gradle\\daemon\\7.3.3\\com.example.lembretesrecycler.app-merged_res-29:\\drawable_ic_settings.xml.flat",
+        "source": "C:\\Users\\helvi\\.gradle\\daemon\\7.3.3\\com.example.lembretesrecycler.app-main-31:\\drawable\\ic_settings.xml"
     },
     {
         "merged": "C:\\Users\\helvi\\.gradle\\daemon\\7.3.3\\com.example.lembretesrecycler.app-merged_res-29:\\drawable_ic_baseline_expand_more_24.xml.flat",

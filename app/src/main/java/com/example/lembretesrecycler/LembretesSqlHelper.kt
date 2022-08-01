@@ -8,7 +8,7 @@ class LembretesSqlHelper(context: Context): SQLiteOpenHelper(context, DATABASE_N
 
     override fun onCreate(sqLiteDatabase: SQLiteDatabase) {
         sqLiteDatabase.execSQL(
-            "CREATE TABLE $TABLE_HOTEL(" +
+            "CREATE TABLE $TABLE_LEMBRETES(" +
                     "$COLUMN_TITULO TEXT PRIMARY KEY," +
                     "$COLUMN_TEXT TEXT," +
                     "$COLUMN_PRIORIDADE TEXT," +
