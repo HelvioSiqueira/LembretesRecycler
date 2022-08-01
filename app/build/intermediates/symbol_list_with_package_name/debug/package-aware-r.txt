@@ -2425,6 +2425,9 @@ dimen preference_seekbar_padding_vertical
 dimen preference_seekbar_value_minWidth
 dimen preferences_detail_width
 dimen preferences_header_width
+dimen tamanho_grande
+dimen tamanho_normal
+dimen tamanho_pequeno
 dimen test_dimen
 dimen test_mtrl_calendar_day_cornerSize
 dimen test_navigation_bar_active_item_max_width

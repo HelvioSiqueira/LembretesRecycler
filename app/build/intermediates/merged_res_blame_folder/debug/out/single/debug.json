@@ -12,6 +12,10 @@
         "source": "C:\\Users\\helvi\\.gradle\\daemon\\7.3.3\\com.example.lembretesrecycler.app-main-31:\\drawable\\ic_atencao.xml"
     },
     {
+        "merged": "com.example.lembretesrecycler.app-merged_res-29:/layout_item_lembrete.xml.flat",
+        "source": "com.example.lembretesrecycler.app-main-31:/layout/item_lembrete.xml"
+    },
+    {
         "merged": "C:\\Users\\helvi\\.gradle\\daemon\\7.3.3\\com.example.lembretesrecycler.app-merged_res-29:\\drawable-xhdpi_ic_pin.png.flat",
         "source": "C:\\Users\\helvi\\.gradle\\daemon\\7.3.3\\com.example.lembretesrecycler.app-pngs-24:\\drawable-xhdpi\\ic_pin.png"
     },
@@ -82,10 +86,6 @@
     {
         "merged": "C:\\Users\\helvi\\.gradle\\daemon\\7.3.3\\com.example.lembretesrecycler.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\helvi\\.gradle\\daemon\\7.3.3\\com.example.lembretesrecycler.app-main-31:\\mipmap-xxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.lembretesrecycler.app-merged_res-29:/xml_app_preferences.xml.flat",
-        "source": "com.example.lembretesrecycler.app-main-31:/xml/app_preferences.xml"
     },
     {
         "merged": "C:\\Users\\helvi\\.gradle\\daemon\\7.3.3\\com.example.lembretesrecycler.app-merged_res-29:\\drawable-xxhdpi_ic_pin.png.flat",

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tamanho_grande">50sp</dimen>
+    <dimen name="tamanho_pequeno">15sp</dimen>
+    <dimen name="tamanho_normal">20sp</dimen>
+
+</resources>

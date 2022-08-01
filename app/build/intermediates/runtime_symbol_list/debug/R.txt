@@ -2424,6 +2424,9 @@ int dimen preference_seekbar_padding_vertical 0x7f07023a
 int dimen preference_seekbar_value_minWidth 0x7f07023b
 int dimen preferences_detail_width 0x7f07023c
 int dimen preferences_header_width 0x7f07023d
+int dimen tamanho_grande 0x7f070253
+int dimen tamanho_normal 0x7f070254
+int dimen tamanho_pequeno 0x7f070255
 int dimen test_dimen 0x7f07023e
 int dimen test_mtrl_calendar_day_cornerSize 0x7f07023f
 int dimen test_navigation_bar_active_item_max_width 0x7f070240

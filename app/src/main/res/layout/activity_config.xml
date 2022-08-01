@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/fragmentConfig"
-        android:name="com.example.lembretesrecycler.ConfigFragment"
+        android:name="com.example.lembretesrecycler.fragments.ConfigFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 

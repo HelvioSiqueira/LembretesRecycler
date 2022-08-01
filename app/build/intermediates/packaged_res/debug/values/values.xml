@@ -27,6 +27,9 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
+    <dimen name="tamanho_grande">50sp</dimen>
+    <dimen name="tamanho_normal">20sp</dimen>
+    <dimen name="tamanho_pequeno">15sp</dimen>
     <string name="about_button_site">Site</string>
     <string name="about_message">Desenvolvido por Helvio</string>
     <string name="about_title">Dominando o Android</string>

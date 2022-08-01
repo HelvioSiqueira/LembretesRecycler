@@ -11,6 +11,9 @@ color purple_700
 color teal_200
 color teal_700
 color white
+dimen tamanho_grande
+dimen tamanho_normal
+dimen tamanho_pequeno
 drawable ic_add
 drawable ic_atencao
 drawable ic_baseline_expand_less_24
