@@ -34,10 +34,10 @@ class MainActivity :
     }
 
     //Função necessaria que infla a barra de menu
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.lembrete, menu)
 
-        val searchItem = menu?.findItem(R.id.action_search)
+        val searchItem = menu.findItem(R.id.action_search)
         searchItem?.setOnActionExpandListener(this)
         searchView = searchItem?.actionView as SearchView
         searchView?.queryHint = getString(R.string.action_search)

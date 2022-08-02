@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.lembretesrecycler.app-mergeDebugResources-27:/values-hi/values-hi.xml",
+            "outputFile": "com.example.lembretesrecycler.app-mergeDebugResources-30:/values-hi/values-hi.xml",
             "map": [
                 {
                     "source": "C:\\Users\\helvi\\.gradle\\caches\\transforms-3\\824f73c1972ef0f3f8db575de5bd4879\\transformed\\preference-1.2.0\\res\\values-hi\\values-hi.xml",

@@ -13,10 +13,12 @@ import com.example.lembretesrecycler.presenters.LembreteFormPresenter
 import com.example.lembretesrecycler.repositorys.MemoryRepository
 import com.example.lembretesrecycler.views.LembreteFormView
 import kotlinx.android.synthetic.main.fragment_lembrete_form.*
+import org.koin.android.ext.android.inject
+import org.koin.core.parameter.parametersOf
 
 class LembreteFormFragment: DialogFragment(), LembreteFormView {
 
-    private val presenter = LembreteFormPresenter(this, MemoryRepository)
+    private val presenter: LembreteFormPresenter by inject { parametersOf(this) }
 
     override fun onCreateView(
         inflater: LayoutInflater,

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.lembretesrecycler.app-mergeDebugResources-27:/values-zh-rTW/values-zh-rTW.xml",
+            "outputFile": "com.example.lembretesrecycler.app-mergeDebugResources-30:/values-zh-rTW/values-zh-rTW.xml",
             "map": [
                 {
                     "source": "C:\\Users\\helvi\\.gradle\\caches\\transforms-3\\dde0d3b0e6b18b84b85660f4dab23270\\transformed\\material-1.6.0\\res\\values-zh-rTW\\values-zh-rTW.xml",

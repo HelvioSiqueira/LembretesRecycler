@@ -17,9 +17,11 @@ import com.example.lembretesrecycler.repositorys.MemoryRepository
 import com.example.lembretesrecycler.views.MainView
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.lembrete_list.*
+import org.koin.android.ext.android.inject
+import org.koin.core.parameter.parametersOf
 
 class LembreteListFragment : Fragment(), MainView {
-    private val presenter = LembretesPresenter(this, MemoryRepository)
+    private val presenter: LembretesPresenter by inject{ parametersOf(this) }
 
     //Criando a lista de lembrete mutavel
     var lembretes = presenter.showLembretes()
