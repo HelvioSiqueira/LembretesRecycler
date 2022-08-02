@@ -1,6 +1,7 @@
 package com.example.lembretesrecycler.fragments
 
 import android.os.Bundle
+import android.util.Log
 import android.view.*
 import android.view.inputmethod.EditorInfo
 import android.widget.ArrayAdapter

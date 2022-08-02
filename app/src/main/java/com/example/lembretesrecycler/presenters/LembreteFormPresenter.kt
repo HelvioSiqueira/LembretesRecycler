@@ -12,12 +12,12 @@ class LembreteFormPresenter(
 
     private val validator = LembreteValidator()
 
-    fun saveLembrete(lembrete: Lembrete): Boolean{
-        return if(validator.validate(lembrete)){
+    fun saveLembrete(lembrete: Lembrete): Boolean {
+        return if (validator.validate(lembrete)) {
             try {
                 repository.add(lembrete)
                 true
-            } catch (e: Exception){
+            } catch (e: Exception) {
                 view.errorSaveLembrete()
                 false
             }

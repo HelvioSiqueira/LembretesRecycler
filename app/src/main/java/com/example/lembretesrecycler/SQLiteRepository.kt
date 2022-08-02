@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.ContentValues
 import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
+import android.util.Log
 import com.example.lembretesrecycler.repositorys.LembretesRepository
 
 class SQLiteRepository(ctx: Context): LembretesRepository {
@@ -18,6 +19,8 @@ class SQLiteRepository(ctx: Context): LembretesRepository {
             put(COLUMN_PRIORIDADE, lembrete.prioridade)
             put(COLUMN_DATA, lembrete.data)
         }
+
+        db.insert(TABLE_LEMBRETES, null, cv)
 
         db.close()
     }
@@ -39,6 +42,8 @@ class SQLiteRepository(ctx: Context): LembretesRepository {
 
     override fun add(lembrete: Lembrete) {
         insert(lembrete)
+
+        //Log.i("HSV", lembrete.titulo)
     }
 
     override fun obterLembretes(): List<Lembrete> {
@@ -53,6 +58,8 @@ class SQLiteRepository(ctx: Context): LembretesRepository {
             val lembrete = lembreteFromCursor(cursor)
             lembretes.add(lembrete)
         }
+
+        Log.i("HSV", lembretes.joinToString())
 
         return lembretes
     }
